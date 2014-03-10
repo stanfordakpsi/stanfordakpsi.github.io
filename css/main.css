@@ -74,15 +74,25 @@ textarea {
     src: url(../font/TRAJANUS.TTF) format("truetype");
 }
 
+/* General */
 body {
     background-color: #F5F5F5;
+}
+
+a {
+    color: #000080;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    /*color: #FFD700;*/
 }
 
 /* Main content box */
 #main {
     text-align: center;
     font-family: "Trajanus Roman", "Helvetica";
-    font-weight: bold;
 }
 
 #main h1 {
@@ -97,17 +107,6 @@ body {
 
 }
 
-#main a {
-    color: #000080;
-    text-decoration: none;
-}
-
-#main a:hover {
-    color: black;
-    /*color: #FFD700;*/
-    font-weight: bold;
-}
-
 /* Main Crest */
 #main-crest {
     width: 500px;
@@ -116,6 +115,11 @@ body {
 }
 
 
+/* Footer */
+footer {
+    text-align: center;
+    font-family: "Trajanus Roman", "Helvetica";
+}
 
 
 
