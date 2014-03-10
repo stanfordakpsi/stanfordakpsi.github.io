@@ -70,8 +70,8 @@ textarea {
 
 /* Trajanus Roman Font */
 @font-face {
-    font-family: "Trajanus Roman";
-    src: url(../font/TRAJANUS.TTF) format("truetype");
+    font-family: "Trajan Pro Regular";
+    src: url(../fonts/TrajanPro-Regular.ttf) format("truetype");
 }
 
 /* General */
@@ -89,10 +89,15 @@ a:hover {
     /*color: #FFD700;*/
 }
 
+/* Fixes font */
+
+
 /* Main content box */
 #main {
     text-align: center;
     font-family: "Trajanus Roman", "Helvetica";
+    width: 100%;
+    height: 100%;
 }
 
 #main h1 {
@@ -109,9 +114,7 @@ a:hover {
 
 /* Main Crest */
 #main-crest {
-    width: 500px;
-    height: 500px;
-
+    width: 30%;
 }
 
 
@@ -120,8 +123,6 @@ footer {
     text-align: center;
     font-family: "Trajanus Roman", "Helvetica";
 }
-
-
 
 
 
