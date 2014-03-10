@@ -82,7 +82,7 @@ textarea {
 body {
     box-sizing: border-box;
     background-color: #F5F5F5;
-    font-family: "Trajanus Roman Regular", "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 a {
@@ -96,6 +96,10 @@ a:hover {
 
 a:visited {
    /* color: #FFD700; */
+}
+
+.contact {
+    font-style: italic;
 }
 
 /* Fixes font */
@@ -137,16 +141,48 @@ a:visited {
 
 footer {
     display: block;
-    width: 50%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-family: "Trajanus Roman Regular", "Times New Roman", Times, serif;
 }
 
+/**** Recruitment ****/
+#main-recruitment {
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 25px;
+}
+
+#recruitment-schedule {
+
+}
+
+#recruitment-schedule li {
+    margin: 25px 0px 25px;
+
+}
+
+#recruitment-schedule .event-name {
+    font-style: italic;
+}
 
 
+/**** Recruitment ****/
+#main-corporate {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    margin-left: 25px;
+    max-width: 500px;
+}
 
+#corporate-contact {
+}
+
+#corporate-contact a {
+    font-style: normal;
+    font-weight: bold;
+}
 
 
 
