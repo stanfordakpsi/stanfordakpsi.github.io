@@ -70,8 +70,12 @@ textarea {
 
 /* Trajanus Roman Font */
 @font-face {
-    font-family: "Trajan Pro Regular";
-    src: url(../fonts/TrajanPro-Regular.ttf) format("truetype");
+    font-family: 'Trajanus Roman Regular';
+    src: url('/fonts/trajanus.eot');
+    src: url('/fonts/trajanus.eot') format('embedded-opentype'),
+         url('/fonts/trajanus.woff') format('woff'),
+         url('/fonts/trajanus.ttf') format('truetype'),
+         url('/fonts/trajanus.svg#TrajanusRomanRegular') format('svg');
 }
 
 /* General */
@@ -95,7 +99,7 @@ a:hover {
 /* Main content box */
 #main {
     text-align: center;
-    font-family: "Trajanus Roman", "Helvetica";
+    font-family: "Trajanus Roman Regular", "Times New Roman", Times, serif;
     width: 100%;
     height: 100%;
 }
@@ -121,7 +125,7 @@ a:hover {
 /* Footer */
 footer {
     text-align: center;
-    font-family: "Trajanus Roman", "Helvetica";
+    font-family: "Trajanus Roman Regular", "Times New Roman", Times, serif;
 }
 
 
