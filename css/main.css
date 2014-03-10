@@ -80,7 +80,9 @@ textarea {
 
 /* General */
 body {
+    box-sizing: border-box;
     background-color: #F5F5F5;
+    font-family: "Trajanus Roman Regular", "Times New Roman", Times, serif;
 }
 
 a {
@@ -90,10 +92,16 @@ a {
 
 a:hover {
     color: black;
-    /*color: #FFD700;*/
+}
+
+a:visited {
+   /* color: #FFD700; */
 }
 
 /* Fixes font */
+.fix {
+    font-family: "Times New Roman", Times, serif;
+}
 
 
 /* Main content box */
@@ -122,8 +130,16 @@ a:hover {
 }
 
 
-/* Footer */
+/* Footer Wrapper */
+#footer-wrapper {
+    width: 100%;
+}
+
 footer {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     font-family: "Trajanus Roman Regular", "Times New Roman", Times, serif;
 }
