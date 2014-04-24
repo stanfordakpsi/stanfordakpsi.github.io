@@ -139,6 +139,15 @@ a:visited {
     width: 100%;
 }
 
+header {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Trajanus Roman Regular", "Times New Roman", Times, serif;
+}
+
 footer {
     display: block;
     width: 100%;
