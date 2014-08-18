@@ -1,0 +1,144 @@
+body {
+	font-family: 'Lato';
+}
+.content_well {
+	height: 400px;
+	width: 300px;
+	background-color: #000000;
+	display: inline-block;
+	border-radius: 10px;
+	/*font-family: 'Oswald';*/
+}
+
+#fraternity_logo {
+  width: 85%;
+  height: 60%;
+}
+
+.site-wrapper {
+	background-color: #FFF;
+}
+
+/*Redudant code from the cover css file*/
+
+.masthead-brand {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.position-heading {
+	background-color: #81A8B8;
+	color: white;
+	margin: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.class-heading {
+	background-color: #DBE6EC;
+	color: #81A8B8;
+	margin: 0px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+/* Heading */
+.masthead-nav {
+	margin-right: 30px;
+}
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  /*font-weight: bold;*/
+  color: #C2CBCE; /* IE8 proofing */
+/*  color: rgba(255,255,255,.75); */  
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  color: #81A8B8;
+  /*border-bottom-color: rgba(255,255,255,.25);*/
+  border-bottom-color: #81A8B8;
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #000000;
+  border-bottom-color: #000000;
+}
+
+/* Positional CSS */
+
+.right {
+	float: right;
+}.center {
+	display: block;
+	margin: auto;
+}.center-text {
+	text-align: center;
+}
+
+/* CSS for Brotherhood Page */
+.brotherhood-profiles {
+	background-color: #DF013A;
+}
+
+.portrait {
+	width: 60%;
+	height: 60%;
+	margin-top: 25px;
+}
+.portrait-pres {
+	width: 30%;
+	height: 30%;
+	margin-top: 25px;
+}
+.president {
+	margin-top: 20px;
+}
+.class-divider {
+	background-color: #FAFAFA;
+	overflow: hidden;
+	padding-bottom: 15px;
+}
+.position {
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.name {
+	margin-bottom: 0px;
+	color: #848484;
+}
+#ecomm {}
+
+
+
+/* Recruitment CSS */
+.recruitment-day {
+	text-align: center;
+	padding: 15px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.day-div {
+	height: 100px;
+	display: table;
+}
+
+/* Random */
+.logo {
+	background-color: #FFF;
+}
+.logo-header {
+	margin-bottom: -44px;
+}
