@@ -1,5 +1,5 @@
 body {
-	font-family: 'Lato';
+	font-family: 'Montserrat';
 }
 .content_well {
 	height: 400px;
@@ -126,14 +126,23 @@ body {
 	display: table-cell;
 	vertical-align: middle;
 	background-color: #FFF;
+	transition: background 0.25s ease-in-out;
+}
+.recruitment-day:hover {
+	background-color: #C2CBCE;
 }
 .day-div {
 	height: 100px;
 	display: table;
 	margin-top: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #81A8B8;
+	transition: background 0.25s ease-in-out;
 }
 .day-div:hover {
 	cursor: pointer;
+	background-color: #C2CBCE;
 }
 .day-picture-div {
 	margin-top: 15px;
@@ -149,15 +158,12 @@ body {
 	opacity: 1;
 }
 #event-div {
-	margin-top: 40px;
 	height: auto;
-	padding-bottom: 30px;
-	width: auto;
-	max-width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
+	padding-top: 118px;
+	padding-bottom: 118px;
+	width: 100%;
 	background-color: #333;
-	opacity: 0.8;
+	opacity: 0.9;
 }
 /* Random */
 .logo {
