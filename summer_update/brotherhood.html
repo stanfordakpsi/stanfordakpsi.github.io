@@ -6,9 +6,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- **TODO** Need to figure out which one of these web fonts are unneccesary and remove them as they slow down loading
+         the page -->
+    <!-- Loads the open-source fonts from Google's Web Font servers. These can be costly on load-times so try not to have
+         too many -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:400,300,700' rel='stylesheet' type='text/css'>
-     <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <!-- Loads jQuery script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    
+    <!-- Loads ScrollFix script that allows the elements to stick to the top when scrolling -->
+    <!-- **TODO** Need to include shoutout here for original contributor on Github -->
     <script src="./bootstrap_3.1.1/js/jquery-scrolltofixed.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
@@ -23,14 +32,6 @@
     <!-- Bootstrap core CSS -->
     <link href="./bootstrap_3.1.1/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="./bootstrap_3.1.1/css/site.css"/>
-
-    <!-- Background Carousel Code taken from -->
-    <!-- http://untame.net/2013/04/twitter-bootstrap-carousel/#part3 -->
-
-  <!-- Unless noted otherwise, this code is owned by Google Corp as the code was developed
-  during the tenure of his internship at the company. When legal permission is given,
-  full ownership of the site and the code will be made out to Alpha Kappa Psi @ Stanford University,
-  under the 501(c) Alpha Kappa Psi organization -->
 </head>
 
 <body>
@@ -40,8 +41,7 @@
       <div class="logo-header">
           <img class="logo" src="./bootstrap_3.1.1/img/akpsi_header_small.png">
         </div>
-      <!-- <div class="inner"> -->
-        <!-- <h3 class="masthead-brand">Pi Tau Chapter</h3> -->
+        <!-- Navbar information -->
         <ul class="nav masthead-nav right">
           <li><a href="index.html">Home</a></li>
           <li><a href="about-us.html">About Us</a></li>
@@ -50,12 +50,12 @@
           <li><a href="#">Corporate Partners</a></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
-      <!-- div -->
     </div>
-
-<!-- Need to add ScrollSpy Navbar for navigating the page -->
-
+    <!-- This is the div where all of the portraits of the members are stored. They are seperated out by
+         ECOMM and Active Membership. Each member on the page gets a div for their profile and this makes
+         it a lot easier to move/delete/add profiles -->
     <div class="brotherhood_profiles">
+    <!-- The section for current members of ECOMM -->
     <div class="class-divider" id="ecomm">
         <h1 class="position-heading">The 2014-2015 Executive Committee</h1>
         <div class="president col-xs-6">
@@ -109,6 +109,7 @@
           <h5 class="position center-text">VP External</h5>
         </div>
     </div>
+    <!-- The section for the rest of membership within AKPsi -->
     <div class="actives">
       <h1 class="position-heading">Active Membership</h1>
       <div class="class-divider" id="active-membership">
@@ -328,10 +329,5 @@
     </div>
   </div>
 </div>
-
-  <!-- Bootstrap core JavaScript
-  ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-
 </body>
 </html>
