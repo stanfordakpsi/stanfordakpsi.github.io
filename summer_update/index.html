@@ -6,12 +6,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+  <!-- **TODO** need to figure out how to get AKPsi logo or a fresh Stanford logo as the website icon -->
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:400,300,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
+  <!-- Text shown in the browser tab -->
   <title>AKPsi - Pi Tau Chapter</title>
 
   <!-- Bootstrap core CSS -->
@@ -24,15 +23,14 @@
 
   <!-- Background Carousel Code taken from -->
   <!-- http://untame.net/2013/04/twitter-bootstrap-carousel/#part3 -->
-
-  <!-- Unless noted otherwise, this code is owned by Google Corp as the code was developed
-  during the tenure of his internship at the company. When legal permission is given,
-  full ownership of the site and the code will be made out to Alpha Kappa Psi @ Stanford University,
-  under the 501(c) Alpha Kappa Psi organization -->
 </head>
 
 <body>
 
+<!-- The items of the carousel (scrolling background) are saved here. The item with the active class
+     is the one that is first shown in the presentation and it will show the corresponding .jpg file
+     displayed under it's proper class. To add more elements follow the same "item [number]" format
+     and be sure to specify and additional image within the new CSS for that [number] -->
   <div id="myCarousel" class="carousel container slide">
       <div class="carousel-inner">
         <div class="active item one"></div>
@@ -44,14 +42,10 @@
       </div>
     </div>
   <div class="site-wrapper">
-
     <div class="site-wrapper-inner">
-
       <div class="cover-container">
-
         <div class="masthead clearfix">
           <div class="inner">
-<!--             <h3 class="masthead-brand">Stanford University</h3> -->
             <ul class="nav masthead-nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="about-us.html">About Us</a></li>
@@ -62,29 +56,18 @@
             </ul>
           </div>
         </div>
-
+        <!-- This is the square in the middle of the page that highlights the AKPsi Logo, our
+             chapter name and other information. -->
         <div class="inner cover">
           <div class="content_well">
             <img id="fraternity_logo" src="./bootstrap_3.1.1/img/akpsi_logo.png"/>
             <h1 class="cover-heading">ALPHA KAPPA PSI</h1>
             <h2 class="cover-heading">Pi Tau Chapter</h2>
             <p class="lead">EST. New York, 1904</p>
-            <!-- <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Welcome to our Brotherhood</a>
-            </p> -->
           </div>
         </div>
-
-        <!-- <div class="mastfoot">
-          <div class="inner">
-            <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-          </div>
-        </div> -->
-
       </div>
-
     </div>
-
   </div>
 
     <!-- Bootstrap core JavaScript
@@ -92,6 +75,9 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="./bootstrap_3.1.1/js/bootstrap.min.js"></script>
+    <!-- Basic javascript that forces the carousel to move from image to image (as specified above)
+         If you want to change the duration of how long each image is shown, just change the number
+         specified below. It is shown in the measure of milliseconds. -->
     <script type="text/javascript">
       $(document).ready(function() {
         $('.carousel').carousel({interval: 5000});
