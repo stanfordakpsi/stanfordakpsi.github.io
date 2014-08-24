@@ -132,7 +132,7 @@ body {
 	background-color: #C2CBCE;
 }
 .day-div {
-	height: 100px;
+	height: 150px;
 	display: table;
 	margin-top: 15px;
 	border-style: solid;
@@ -161,6 +161,14 @@ body {
 	height: auto;
 	padding-top: 118px;
 	padding-bottom: 118px;
+	width: 100%;
+	background-color: #333;
+	opacity: 0.9;
+}
+#contact-div {
+	height: auto;
+	padding-top: 70px;
+	padding-bottom: 70px;
 	width: 100%;
 	background-color: #333;
 	opacity: 0.9;
