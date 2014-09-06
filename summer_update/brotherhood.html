@@ -21,7 +21,10 @@
     <script src="./bootstrap_3.1.1/js/jquery-scrolltofixed.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
-      $('.position-heading').scrollToFixed();
+      $('#execucomm').scrollToFixed({limit: $('#chapter-advisor').offset().top - 500});
+      $('#activmem').scrollToFixed({limit: $('#chapter-advisor').offset().top - 500});
+      $('#chapter-advisor').scrollToFixed();
+      $('#alum').scrollToFixed();
     });
     </script>
     <!-- Text shown in the browser tab -->
@@ -43,9 +46,8 @@
         <ul class="nav masthead-nav right">
           <li><a href="index.html">Home</a></li>
           <li><a href="about-us.html">About Us</a></li>
-          <li class="active"><a href="#">The Brotherhood</a></li>
+          <li class="active"><a href="brotherhood.html">The Brotherhood</a></li>
           <li><a href="recruitment.html">Recruitment</a></li>
-          <li><a href="#">Corporate Partners</a></li>
           <li><a href="contact-us.html">Contact Us</a></li>
         </ul>
     </div>
@@ -55,7 +57,7 @@
     <div class="brotherhood_profiles">
     <!-- The section for current members of ECOMM -->
     <div class="class-divider" id="ecomm">
-        <h1 class="position-heading">The 2014-2015 Executive Committee</h1>
+        <h1 class="position-heading" id="execucomm">The 2014-2015 Executive Committee</h1>
         <div class="president col-xs-6">
           <img class="portrait-pres center" src="./bootstrap_3.1.1/img/ag/wei-ling_heng.jpg"/>
           <h3 class="name center-text">Wei-Ling Heng</h3>
@@ -97,7 +99,7 @@
           <h5 class="position center-text">VP Membership</h5>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/female-silhouette.jpg"/>
           <h4 class="name center-text">Lindsay Txakeeyang</h4>
           <h5 class="position center-text">VP Membership</h5>
         </div>
@@ -109,7 +111,7 @@
     </div>
     <!-- The section for the rest of membership within AKPsi -->
     <div class="actives">
-      <h1 class="position-heading">Active Membership</h1>
+      <h1 class="position-heading" id="activmem">Active Membership</h1>
       <div class="class-divider" id="active-membership">
         <div class="vp col-xs-6 col-md-3">
           <img class="portrait center" src="./bootstrap_3.1.1/img/az/heather_aholt.JPG"/>
@@ -132,7 +134,7 @@
           <h4 class="name center-text">Camilo Arevalo</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
           <h4 class="name center-text">Henry Yuhao Cao</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
@@ -148,7 +150,7 @@
           <h4 class="name center-text">Daniel Chiu</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
           <h4 class="name center-text">Inseong Cho</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
@@ -168,7 +170,7 @@
           <h4 class="name center-text">Taide Ding</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
           <h4 class="name center-text">Kelvin Do</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
@@ -180,7 +182,7 @@
           <h4 class="name center-text">Brandon Garcia</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/female-silhouette.jpg"/>
           <h4 class="name center-text">Emma Guth</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
@@ -188,11 +190,11 @@
           <h4 class="name center-text">Darren Handoko</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
           <h4 class="name center-text">Lucas Hansen</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
           <h4 class="name center-text">Saunders Hayes</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
@@ -200,7 +202,7 @@
           <h4 class="name center-text">Torin Herndon</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
           <h4 class="name center-text">Devon Hinton</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
@@ -208,11 +210,11 @@
           <h4 class="name center-text">Chad Kamisugi</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/female-silhouette.jpg"/>
           <h4 class="name center-text">Sunli Kim</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
           <h4 class="name center-text">Steve Kim</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
@@ -220,7 +222,7 @@
           <h4 class="name center-text">Vivian Kong</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
           <h4 class="name center-text">Naveen Krishnamurthi</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
@@ -232,7 +234,7 @@
           <h4 class="name center-text">Eric ChengShu Li</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
           <h4 class="name center-text">Daniel Liem</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
@@ -240,19 +242,19 @@
           <h4 class="name center-text">Jason Lopata</h4>
         </div>
          <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/female-silhouette.jpg"/>
           <h4 class="name center-text">Alina Luk</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
           <h4 class="name center-text">Kevin Madrigal</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/female-silhouette.jpg"/>
           <h4 class="name center-text">Elisha Marquez</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
           <h4 class="name center-text">Leo Martel</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
@@ -260,7 +262,7 @@
           <h4 class="name center-text">Joshua Mendoza</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
           <h4 class="name center-text">Anjney Midha</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
@@ -276,7 +278,7 @@
           <h4 class="name center-text">Rotimi Opeke</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
           <h4 class="name center-text">Ryan Perez</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
@@ -296,7 +298,7 @@
           <h4 class="name center-text">Justin Wiguna</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/people_placeholder.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
           <h4 class="name center-text">Oscar Wong</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
@@ -316,11 +318,54 @@
           <h4 class="name center-text">Chenyao Yu</h4>
         </div>
       </div>
-      <h2 class="class-heading">Chapter Advisor</h2>
-      <div class="class-divider" id="kappa">  
+      <h2 class="class-heading" id="chapter-advisor">Chapter Advisor</h2>
+      <div class="class-divider">  
         <div>
-          <img class="portrait center" src="./bootstrap_3.1.1/img/stephen_quinonez.jpg"/>
+          <img class="portrait center special-position" src="./bootstrap_3.1.1/img/other/stephen_quinonez.jpg"/>
           <h4 class="name center-text">Stephen Quiñonez</h4>
+        </div>
+      </div>
+      <div class="class-divider">
+        <h1 class="position-heading" id="alum">Chapter Alumni</h1>
+        <div class="col-md-12" id="alumni-lists">
+          <div class="col-md-3" id="finance-alum">
+            <h2 class="class-heading industry">Finance</h2>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/jpm.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/ms.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/gs.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/a16z.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/merrill.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/lazard.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/citi.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/tcv.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/qatalyst.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/barclays.png"/>
+          </div>
+          <div class="col-md-3" id="consulting-alum">
+            <h2 class="class-heading industry">Consulting</h2>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/consulting/mckinsey.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/consulting/bain.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/consulting/bcg.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/consulting/kpmg.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/consulting/accenture.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/consulting/pwc.png"/>
+          </div>
+          <div class="col-md-3" id="technology-alum">
+            <h2 class="class-heading industry">Technology</h2>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/technology/twitter.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/technology/linkedin.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/technology/apple.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/technology/google.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/technology/genentech.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/technology/cisco.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/technology/dropbox.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/technology/microsoft.png"/>
+          </div>
+          <div class="col-md-3" id="nonprofit-alum">
+            <h2 class="class-heading industry">Non-Profit</h2>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/non-profit/tfa.png"/>
+            <img class="center" src="./bootstrap_3.1.1/img/companies/non-profit/drk.png"/>
+          </div>
         </div>
       </div>
     </div>

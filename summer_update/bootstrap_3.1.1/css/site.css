@@ -97,6 +97,10 @@ body {
 	height: 60%;
 	margin-top: 25px;
 }
+.special-position {
+	width: 14%;
+	height: 14%;
+}
 .portrait-pres {
 	width: 30%;
 	height: 30%;
@@ -118,7 +122,13 @@ body {
 	margin-bottom: 0px;
 	color: #848484;
 }
-#ecomm {}
+#alum {
+	margin-bottom: 20px;
+}
+.industry {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 
 
 
