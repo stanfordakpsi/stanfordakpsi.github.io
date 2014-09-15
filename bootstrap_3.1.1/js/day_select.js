@@ -37,7 +37,7 @@ function Wednesday() {
    " meet a few that are still in the area and hear about how AKPsi shaped their college experiences!";
   document.getElementById("event-div").style.opacity = 0;
   pic_obj.style.opacity = 0;
-  pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2014/formal_alumni.jpg')";
+  pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2014/napa_tour.JPG')";
   $(".day-picture-div").animate({opacity: '1'}, 350);
   window.setTimeout("$('#event-div').animate({opacity: '0.8'}, 1000)", 750);
 }
