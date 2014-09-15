@@ -1,0 +1,70 @@
+.content_well {
+	height: 400px;
+	width: 300px;
+	background-color: #000000;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+/* Recruitment CSS */
+.recruitment-day {
+	text-align: center;
+	font-size: 20px;
+	padding: 15px;
+	display: table-cell;
+	vertical-align: middle;
+	background-color: #FFF;
+	transition: background 0.25s ease-in-out;
+}
+.recruitment-day:hover {
+	background-color: #C2CBCE;
+}
+.day-div {
+	height: 150px;
+	display: table;
+	margin-top: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #81A8B8;
+	transition: background 0.25s ease-in-out;
+}
+.day-div:hover {
+	cursor: pointer;
+	background-color: #C2CBCE;
+}
+.day-picture-div {
+	margin-top: 15px;
+	overflow: hidden;
+	width: 100%;
+	height: 350px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+#event-title, #event-details, #event-description {
+	text-align: center;
+	color: #FFF;
+	opacity: 1;
+}
+#event-div {
+	height: auto;
+	padding-top: 118px;
+	padding-bottom: 118px;
+	width: 100%;
+	background-color: #333;
+	opacity: 0.9;
+}
+#contact-div {
+	height: auto;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	width: 100%;
+	background-color: #333;
+	opacity: 0.9;
+}
+/* Random */
+.logo {
+	background-color: #FFF;
+}
+.logo-header {
+	margin-bottom: -44px;
+}
