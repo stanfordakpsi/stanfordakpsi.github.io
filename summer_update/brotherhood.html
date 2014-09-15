@@ -19,24 +19,16 @@
     <!-- Loads ScrollFix script that allows the elements to stick to the top when scrolling -->
     <!-- **TODO** Need to include shoutout here for original contributor on Github -->
     <script src="./bootstrap_3.1.1/js/jquery-scrolltofixed.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-      $('#execucomm').scrollToFixed({limit: $('#chapter-advisor').offset().top - 500});
-      $('#activmem').scrollToFixed({limit: $('#chapter-advisor').offset().top - 500});
-      $('#chapter-advisor').scrollToFixed();
-      $('#alum').scrollToFixed();
-    });
-    </script>
+    <script src="./bootstrap_3.1.1/js/divanchoring.js"></script>
     <!-- Text shown in the browser tab -->
     <title>Pi Tau - Brotherhood</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./bootstrap_3.1.1/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="./bootstrap_3.1.1/css/site.css"/>
+    <link rel="stylesheet" type="text/css" href="./bootstrap_3.1.1/css/company_logos.css">
 </head>
-
 <body>
-
   <div class="site-wrapper">
     <div class="masthead clearfix">
       <div class="logo-header">
@@ -326,43 +318,44 @@
         </div>
       </div>
       <div class="class-divider">
-        <h1 class="position-heading" id="alum">Chapter Alumni</h1>
+        <h1 class="position-heading" id="alum">Where Are Our Alumni Now?</h1>
         <div class="col-md-12" id="alumni-lists">
           <div class="col-md-3" id="finance-alum">
-            <h2 class="class-heading industry">Finance</h2>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/jpm.png"/>
+            <h2 class="class-heading industry" id="finance">Finance</h2>
+            <img class="center" id="jpmorgan" src="./bootstrap_3.1.1/img/companies/finance/jpm.png"/>
             <img class="center" src="./bootstrap_3.1.1/img/companies/finance/ms.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/gs.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/a16z.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/merrill.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/lazard.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/citi.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/tcv.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/qatalyst.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/barclays.png"/>
+            <img class="center" id="gs" src="./bootstrap_3.1.1/img/companies/finance/gs.png"/>
+            <img class="center" id="a16z" src="./bootstrap_3.1.1/img/companies/finance/a16z.png"/>
+            <img class="center" id="baml" src="./bootstrap_3.1.1/img/companies/finance/merrill.png"/>
+            <img class="center" id="lazard" src="./bootstrap_3.1.1/img/companies/finance/lazard.png"/>
+            <img class="center" id="citi" src="./bootstrap_3.1.1/img/companies/finance/citi.png"/>
+            <img class="center" id="tcv" src="./bootstrap_3.1.1/img/companies/finance/tcv.png"/>
+            <img class="center" id="qatalyst" src="./bootstrap_3.1.1/img/companies/finance/qatalyst.png"/>
+            <img class="center" id="barclays" src="./bootstrap_3.1.1/img/companies/finance/barclays.png"/>
           </div>
           <div class="col-md-3" id="consulting-alum">
-            <h2 class="class-heading industry">Consulting</h2>
+            <h2 class="class-heading industry" id="consulting">Consulting</h2>
             <img class="center" src="./bootstrap_3.1.1/img/companies/consulting/mckinsey.png"/>
             <img class="center" src="./bootstrap_3.1.1/img/companies/consulting/bain.png"/>
             <img class="center" src="./bootstrap_3.1.1/img/companies/consulting/bcg.png"/>
             <img class="center" src="./bootstrap_3.1.1/img/companies/consulting/kpmg.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/consulting/accenture.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/consulting/pwc.png"/>
+            <img class="center" id="accenture" src="./bootstrap_3.1.1/img/companies/consulting/accenture.png"/>
+            <img class="center" id="pwc" src="./bootstrap_3.1.1/img/companies/consulting/pwc.png"/>
           </div>
           <div class="col-md-3" id="technology-alum">
-            <h2 class="class-heading industry">Technology</h2>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/technology/twitter.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/technology/linkedin.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/technology/apple.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/technology/google.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/technology/genentech.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/technology/cisco.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/technology/dropbox.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/technology/microsoft.png"/>
+            <h2 class="class-heading industry" id="technology">Technology</h2>
+            <img class="center" id="twitter" src="./bootstrap_3.1.1/img/companies/technology/twitter.png"/>
+            <img class="center" id="snapchat" src="./bootstrap_3.1.1/img/companies/technology/snapchat.png">
+            <img class="center" id="linkedin" src="./bootstrap_3.1.1/img/companies/technology/linkedin.png"/>
+            <img class="center" id="apple" src="./bootstrap_3.1.1/img/companies/technology/apple.png"/>
+            <img class="center" id="google" src="./bootstrap_3.1.1/img/companies/technology/google.png"/>
+            <img class="center" id="genentech" src="./bootstrap_3.1.1/img/companies/technology/genentech.png"/>
+            <img class="center" id="cisco" src="./bootstrap_3.1.1/img/companies/technology/cisco.png"/>
+            <img class="center" id="dropbox" src="./bootstrap_3.1.1/img/companies/technology/dropbox.png"/>
+            <img class="center" id="microsoft" src="./bootstrap_3.1.1/img/companies/technology/microsoft.png"/>
           </div>
           <div class="col-md-3" id="nonprofit-alum">
-            <h2 class="class-heading industry">Non-Profit</h2>
+            <h2 class="class-heading industry" id="non-profit">Non-Profit</h2>
             <img class="center" src="./bootstrap_3.1.1/img/companies/non-profit/tfa.png"/>
             <img class="center" src="./bootstrap_3.1.1/img/companies/non-profit/drk.png"/>
           </div>
