@@ -1,8 +1,0 @@
-@font-face {
-    font-family: 'TrajanusRomanRegular';
-    src: url('trajanus.eot');
-    src: url('trajanus.eot') format('embedded-opentype'),
-         url('trajanus.woff') format('woff'),
-         url('trajanus.ttf') format('truetype'),
-         url('trajanus.svg#TrajanusRomanRegular') format('svg');
-}
