@@ -13,7 +13,7 @@ function preload(arrayOfImages) {
 // Usage:
 
 preload([
-    './img/spring_2013/test.JPG',
+    './bootstrap_3.1.1/img/spring_2013/test.JPG',
     './img/spring_2014/AKPsi_banner_fun.JPG',
     './img/spring_2014/napa_tour.JPG',
     './img/spring_2014/people_moving.JPG',
