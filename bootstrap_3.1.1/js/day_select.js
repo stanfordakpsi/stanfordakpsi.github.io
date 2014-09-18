@@ -1,11 +1,11 @@
 pic_obj = document.getElementsByClassName("day-picture-div")[0];
 
-document.getElementById("monday").onhover = function() {Monday() };
-document.getElementById("tuesday").onhover = function() {Tuesday() };
-document.getElementById("wednesday").onhover = function() {Wednesday() };
-document.getElementById("thursday").onhover = function() {Thursday() };
-document.getElementById("friday").onhover = function() {Friday() };
-document.getElementById("saturday").onhover = function() {Saturday() };
+document.getElementById("monday").onmouseover = function() {Monday() };
+document.getElementById("tuesday").onmouseover = function() {Tuesday() };
+document.getElementById("wednesday").onmouseover = function() {Wednesday() };
+document.getElementById("thursday").onmouseover = function() {Thursday() };
+document.getElementById("friday").onmouseover = function() {Friday() };
+document.getElementById("saturday").onmouseover = function() {Saturday() };
 
 function Monday() {
   document.getElementById("event-title").innerHTML = "Introduction to AKPsi";
