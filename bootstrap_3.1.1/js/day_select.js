@@ -11,7 +11,7 @@ function Monday() {
   document.getElementById("event-title").innerHTML = "Introduction to AKPsi";
   document.getElementById("event-details").innerHTML = "5pm-7pm @ Black Community Services Center";
   document.getElementById("event-description").innerHTML = "Come out and see what Alpha Kappa Psi is all about!" + 
-  " We will beintroducing the organization and hosting an open networking session right after.";
+  " We will beintroducing the organization <br> and hosting an open networking session right after.";
   document.getElementById("event-div").style.opacity = 0;
   pic_obj.style.opacity = 0;
   pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2013/test.JPG')";
@@ -23,7 +23,7 @@ function Tuesday() {
   document.getElementById("event-title").innerHTML = "Meet the Brothers";
   document.getElementById("event-details").innerHTML = "8pm-10pm @ Storey House";
   document.getElementById("event-description").innerHTML = "Hosted right on the row, Tuesday is a chance to get" +
-  " to know the brothers on a more informal level. Come for the food and stay for the company!";
+  " to know the brothers on a <br> more informal level. Come for the food and stay for the company!";
   document.getElementById("event-div").style.opacity = 0;
   pic_obj.style.opacity = 0;
   pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2014/AKPsi_banner_fun.JPG')";
@@ -34,7 +34,7 @@ function Wednesday() {
   document.getElementById("event-title").innerHTML = "Alumni Night";
   document.getElementById("event-details").innerHTML = "6pm-7:30pm @ Black Community Services Center";
   document.getElementById("event-description").innerHTML = "Our Alumni are working all around the world; come" +
-   " meet a few that are still in the area and hear about how AKPsi shaped their college experiences!";
+   " meet a few that are still in the area <br> and hear about how AKPsi shaped their college experiences!";
   document.getElementById("event-div").style.opacity = 0;
   pic_obj.style.opacity = 0;
   pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2014/napa_tour.JPG')";
@@ -67,7 +67,7 @@ function Saturday() {
   document.getElementById("event-title").innerHTML = "Case-Study Workshop";
   document.getElementById("event-details").innerHTML = "9am-1pm @ Huang Basement";
   document.getElementById("event-description").innerHTML = "Work on real case interview questions with our" +
-  " brothers and learn what it's like to be a consultant.";
+  " brothers and learn what it's like <br> to be a consultant.";
   document.getElementById("event-div").style.opacity = 0;
   pic_obj.style.opacity = 0;
   pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2014/case_interview.JPG')";
