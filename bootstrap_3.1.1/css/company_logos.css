@@ -1,4 +1,5 @@
 #accenture {
+	margin-top: 40px;
 	height: 75px;
 }
 #pwc {
@@ -49,7 +50,7 @@
 	height: 120px;
 }
 #apple {
-	margin-top: 40px;
+	margin-top: 20px;
 	padding-left: 10px;
 	height: 140px;
 }
@@ -61,7 +62,7 @@
 	margin-top: -10px;
 }
 #cisco {
-	margin-top: -20px;
+	margin-top: 30px;
 	height: 140px;
 }
 #dropbox {
@@ -77,4 +78,10 @@
 #moodys {
 	height: 75px;
 	margin-top: 10px;
+}
+#bain {
+	margin-top: 30px;
+}
+#drk {
+	margin-top: 40px;
 }
