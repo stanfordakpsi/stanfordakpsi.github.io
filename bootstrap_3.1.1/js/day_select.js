@@ -21,7 +21,7 @@ function Monday() {
 }
 function Tuesday() {
   document.getElementById("event-title").innerHTML = "Meet the Brothers";
-  document.getElementById("event-details").innerHTML = "8pm-10pm @ Storey House";
+  document.getElementById("event-details").innerHTML = "8pm-10pm @ Hillel House";
   document.getElementById("event-description").innerHTML = "Hosted right on the row, Tuesday is a chance to get" +
   " to know the brothers on a <br> more informal level. Come for the food and stay for the company!";
   document.getElementById("event-div").style.opacity = 0;
@@ -48,7 +48,7 @@ function Thursday() {
   " our brothers.";
   document.getElementById("event-div").style.opacity = 0;
   pic_obj.style.opacity = 0;
-  pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2014/people_moving.JPG')";
+  pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2014/resume_workshop.JPG')";
   $(".day-picture-div").animate({opacity: '1'}, 350);
   window.setTimeout("$('#event-div').animate({opacity: '0.8'}, 1000)", 750);
 }
