@@ -15,6 +15,7 @@
     <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <!-- Loads jQuery script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./bootstrap_3.1.1/js/bootstrap.js"></script>
     <!-- Favicon -->
     <link rel="shortcut icon" href="./bootstrap_3.1.1/img/favicon.ico" type="image/x-icon" />
     <!-- Apple Touch icons -->
@@ -40,6 +41,9 @@
       ga('create', 'UA-55636292-1', 'auto');
       ga('send', 'pageview');
     </script>
+    <script>
+      $('modal').modal(options);
+    </script>
     <!-- Text shown in the browser tab -->
     <title>Pi Tau - Brotherhood</title>
 
@@ -49,6 +53,145 @@
     <link rel="stylesheet" type="text/css" href="./bootstrap_3.1.1/css/company_logos.css">
 </head>
 <body>
+
+<!-- Wei's Modal -->
+<div class="modal fade" id="wei-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h2 class="modal-title" id="myModalLabel">Wei-Ling Heng</h2><h6><a href="www.linkedin.com/in/weilingheng/">LinkedIn Profile</a></h6>
+      </div>
+      <div class="modal-body">
+        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/weilingheng.jpg">
+        <h4 class="accent-text"><u>Hometown</u></h4><h5>Penang, Malaysia</h5>
+        <h4 class="accent-text"><u>Positions Held</u></h4>
+        <h5>Associate Consultant Intern - Bain &amp; Co., <br> Financial Manager - Stanford Equestrian Team</h5>
+        <h4 class="accent-text"><u>Bio</u></h4>
+        <h5>Wei-Ling is a <b>junior majoring in Economics</b>. Wei Ling is from Penang, Malaysia, and joined Alpha Kappa Psi in Spring, 2012 (Alpha Gamma Class). Wei-Ling has <b>worked at Rocket Internet, Microsoft, and Bain &amp; Co.</b> At Stanford, Wei-Ling is a member of the <b>Stanford Equestrian Team and Stanford Consulting.</b> Wei-Ling is interested in visiting new places, fashion, and social entrepreneurship.</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Nat Luu's Modal -->
+<div class="modal fade" id="luu-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h2 class="modal-title" id="myModalLabel">Natalie Luu</h2><h6><a href="https://www.linkedin.com/in/natalieluu">LinkedIn Profile</a></h6>
+      </div>
+      <div class="modal-body">
+        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/luu.jpg">
+        <h4 class="accent-text"><u>Hometown</u></h4><h5>San Francisco, CA</h5>
+        <h4 class="accent-text"><u>Positions Held</u></h4>
+        <h5>Qatalyst Partners<br>Accel-KKR<br>Microsoft<br>Y Combinator Campus Associate<br>BASES VP of Product Showcase<br>Society of Women Engineers Banquet Chair<br>Stanford Undergraduate Materials Scientists Corporate Relations Chair</h5>
+        <h4 class="accent-text"><u>Bio</u></h4>
+        <h5>Natalie Luu is a junior majoring in Materials Science and Engineering. Natalie's hometown is San Francisco, CA and joined Alpha Kappa Psi in Spring 2012 as part of the Alpha Gamma class.  Natalie has worked at Accel-KKR, Microsoft, and Y Combinator and will be joining Qatalyst Partners in Technology Mergers &amp; Acquisitions this summer.  From working with her family's tea company, Natalie is passionate about tea and coffee. Natalie also enjoys exercise, martial arts, handcrafts and live music.</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Andrew Vazquez's Modal -->
+<div class="modal fade" id="andrewvazquez-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h2 class="modal-title" id="myModalLabel">Andrew Vazquez</h2><h6><a href="http://www.linkedin.com/pub/andrew-vazquez/78/b6b/a13">LinkedIn Profile</a></h6>
+      </div>
+      <div class="modal-body">
+        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/andrewvazquez.jpg">
+        <h4 class="accent-text"><u>Hometown</u></h4><h5>San Diego, CA</h5>
+        <h4 class="accent-text"><u>Positions Held</u></h4>
+        <h5>Engineering Intern at NOAA<br>Marketing Intern at State Farm<br>Financial Writer<br>Editor<br>and Managing Director of The Opportune Time, LLC.<br>Head Finance Editor of the Stanford Undergraduate Economics Journal<br>Intramural Soccer Referee</h5>
+        <h4 class="accent-text"><u>Bio</u></h4>
+        <h5>Andrew is a sophomore majoring in Economics. Andrew comes from San Diego, CA and joined Alpha Kappa Psi in the spring of 2013 (Alpha Epsilon Class). Andrew has done underwater robotics engineering with NOAA, Marketing for State Farm, and is currently Managing Director of the financial news company The Opportune Time, LLC. Andrew enjoys exercising, investing, and following La Liga soccer.</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Rachel Lee's Modal -->
+<div class="modal fade" id="rachellee-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h2 class="modal-title" id="myModalLabel">Rachel Lee</h2><h6><a href="https://www.linkedin.com/profile/view?id=234740091&trk">LinkedIn Profile</a></h6>
+      </div>
+      <div class="modal-body">
+        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/rachellee.jpg">
+        <h4 class="accent-text"><u>Hometown</u></h4><h5>Hong Kong</h5>
+        <h4 class="accent-text"><u>Positions Held</u></h4>
+        <h5>Bank of America Merrill Lynch Summer Analyst Intern<br>SoftBank Capital Associate Intern<br>AKPsi VP Business Development<br>Seneca International Programming Director<br>Teach For China Campus Ambassador</h5>
+        <h4 class="accent-text"><u>Bio</u></h4>
+        <h5>Rachel is a sophomore from Hong Kong majoring in Economics, and joined Alpha Kappa Psi in Spring 2014 with the Alpha Zeta Class. As a citizen of three countries (Hong Kong, Brazil, and Portugal), Rachel is interested broadly in international development, education, women's empowerment, and intercultural communication, as well as business management and technology. In her free time, she likes to travel, try new restaurants, explore the outdoors, and listen to music.</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Lorena Huang Liu's Modal -->
+<div class="modal fade" id="lorenahuangliu-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h2 class="modal-title" id="myModalLabel">Lorena Huang Liu</h2><h6><a href="www.linkedin.com/pub/lorena-huang-liu/83/188/15a/">LinkedIn Profile</a></h6>
+      </div>
+      <div class="modal-body">
+        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/lorenahuangliu.jpg">
+        <h4 class="accent-text"><u>Hometown</u></h4><h5>Mexico City, Mexico &amp; South Pasadena, CA</h5>
+        <h4 class="accent-text"><u>Positions Held</u></h4>
+        <h5>BASES Hackspace Officer<br>Twain RA 2014-2015</h5>
+        <h4 class="accent-text"><u>Bio</u></h4>
+        <h5>Lorena is a student at Stanford University studying Computer Science and Modern Languages. She is originally from Mexico City and moved to South Pasadena in 2008. She loves foreign languages; she speaks Mandarin, Cantonese, French, Spanish, and English and hopes to learn Italian, Arabic, and Korean. She enjoys traveling, reading, cooking, and singing. In her free time she likes to explore new places on and off campus and try new foods. Her life goal is to travel to 100 countries in her life. </h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Nicole Cuenca Modal -->
+<div class="modal fade" id="nicolecuenca-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h2 class="modal-title" id="myModalLabel">Nicole Cuenca</h2><h6><a href="https://www.linkedin.com/pub/nicole-cuenca/60/757/735">LinkedIn Profile</a></h6>
+      </div>
+      <div class="modal-body">
+        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/nicolecuenca.jpg">
+        <h4 class="accent-text"><u>Hometown</u></h4><h5>San Jose, CA</h5>
+        <h4 class="accent-text"><u>Positions Held</u></h4>
+        <h5>VP Membership<br>Pledge Class CFO</h5>
+        <h4 class="accent-text"><u>Bio</u></h4>
+        <h5>Nicole is a junior majoring in Economics, originally from San Jose, CA. She joined the Pi Tau Chapter of Alpha Kappa Psi as a part of the Alpha Delta class, Fall of 2013. Nicole’s interests lie in education and she has worked at the U.S. Dept. of Education, InnVision Shelter Network, the Stanford Social Innovation Review, and the Expanding College Opportunities research project with Prof. Caroline Hoxby. For fun, she also loves to play golf, take photos, and sit down with a good book.</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
   <div class="site-wrapper">
     <div class="masthead clearfix">
       <div class="logo-header">
@@ -71,32 +214,32 @@
     <div class="class-divider" id="ecomm">
         <h1 class="position-heading" id="execucomm">The 2014-2015 Executive Committee</h1>
         <div class="president col-xs-6">
-          <img class="portrait-pres center" src="./bootstrap_3.1.1/img/ag/wei-ling_heng.jpg"/>
+          <img class="portrait-pres center" src="./bootstrap_3.1.1/img/ag/wei-ling_heng.jpg" data-toggle="modal" data-target="#wei-modal"/>
           <h3 class="name center-text">Wei-Ling Heng</h3>
           <h4 class="position center-text">President</h4>
         </div>
         <div class="president col-xs-6">
-          <img class="portrait-pres center" src="./bootstrap_3.1.1/img/ag/natalie_luu.jpg"/>
+          <img class="portrait-pres center" src="./bootstrap_3.1.1/img/ag/natalie_luu.jpg" data-toggle="modal" data-target="#luu-modal"/>
           <h3 class="name center-text">Natalie Luu</h3>
           <h4 class="position center-text">President</h4>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ad/nicole_cuenca.jpg"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/ad/nicole_cuenca.jpg" data-toggle="modal" data-target="#nicolecuenca-modal"/>
           <h4 class="name center-text">Nicole Cuenca</h4>
           <h5 class="position center-text">VP Finance</h5>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ae/andrew_vazquez.jpg"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/ae/andrew_vazquez.jpg" data-toggle="modal" data-target="#andrewvazquez-modal"/>
           <h4 class="name center-text">Andrew Vazquez</h4>
           <h5 class="position center-text">VP Alumni</h5>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/rachel_lee.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/az/rachel_lee.JPG" data-toggle="modal" data-target="#rachellee-modal"/>
           <h4 class="name center-text">Rachel Lee</h4>
           <h5 class="position center-text">VP Business Development</h5>
         </div>
         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/lorena_huang_liu.JPG"/>
+          <img class="portrait center" src="./bootstrap_3.1.1/img/az/lorena_huang_liu.JPG" data-toggle="modal" data-target="#lorenahuangliu-modal"/>
           <h4 class="name center-text">Lorena Huang Liu</h4>
           <h5 class="position center-text">VP Professional Development</h5>
         </div>
