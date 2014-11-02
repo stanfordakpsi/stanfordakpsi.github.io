@@ -35,6 +35,7 @@ body {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
+	font-weight: 300;
 }
 .class-heading {
 	background-color: #DBE6EC;
@@ -43,10 +44,12 @@ body {
 	padding-top: 8px;
 	padding-bottom: 8px;
 	text-align: center;
+	font-weight: 300;
 }
 
 .accent-text {
 	color: #81A8B8;
+
 }
 
 /* Heading */
