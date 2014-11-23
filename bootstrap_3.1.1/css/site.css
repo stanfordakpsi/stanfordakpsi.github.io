@@ -106,6 +106,16 @@ body {
 	height: 60%;
 	margin-top: 25px;
 	cursor: pointer;
+	-webkit-transition: opacity 0.5s ease-in-out;
+  	-moz-transition: opacity 0.5s ease-in-out;
+  	-ms-transition: opacity 0.5s ease-in-out;
+  	-o-transition: opacity 0.5s ease-in-out;
+  	transition: opacity 0.5s ease-in-out;
+}
+.portrait:hover {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
 }
 .special-position {
 	width: 14%;
@@ -116,6 +126,16 @@ body {
 	height: 30%;
 	margin-top: 25px;
 	cursor: pointer;
+	-webkit-transition: opacity 0.5s ease-in-out;
+  	-moz-transition: opacity 0.5s ease-in-out;
+  	-ms-transition: opacity 0.5s ease-in-out;
+  	-o-transition: opacity 0.5s ease-in-out;
+  	transition: opacity 0.5s ease-in-out;
+}
+.portrait-pres:hover {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
 }
 .president {
 	margin-top: 20px;
