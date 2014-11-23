@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- **TODO** Need to figure out which one of these web fonts are unneccesary and remove them as they slow down loading
-         the page -->
+    the page -->
     <!-- Loads the open-source fonts from Google's Web Font servers. These can be costly on load-times so try not to have
-         too many -->
+    too many -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <!-- Loads jQuery script -->
@@ -34,8 +34,8 @@
     <!-- Google Analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
       ga('create', 'UA-55636292-1', 'auto');
@@ -50,722 +50,870 @@
     <!-- Bootstrap core CSS -->
     <link href="./bootstrap_3.1.1/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="./bootstrap_3.1.1/css/site.css"/>
+    <link rel="stylesheet" type="text/css" href="./bootstrap_3.1.1/css/agency.css"/>
     <link rel="stylesheet" type="text/css" href="./bootstrap_3.1.1/css/company_logos.css">
-</head>
-<body>
+  </head>
+  <body>
 
-<!-- Wei's Modal -->
-<div class="modal fade" id="wei-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h2 class="modal-title" id="myModalLabel">Wei-Ling Heng</h2><h6><a href="www.linkedin.com/in/weilingheng/">LinkedIn Profile</a></h6>
-      </div>
-      <div class="modal-body">
-        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/weilingheng.jpg">
-        <h4 class="accent-text"><u>Hometown</u></h4><h5>Penang, Malaysia</h5>
-        <h4 class="accent-text"><u>Positions Held</u></h4>
-        <h5>Bain &amp; Co.<br>Highland Capital Partners<br>Microsoft<br>Stanford Consulting Board Member<br>Storey House Financial Manager</h5>
-        <h4 class="accent-text"><u>Bio</u></h4>
-        <h5>Wei Ling is a junior majoring in Economics, originally from Penang, Malaysia. She joined the Pi Tau Chapter of Alpha Kappa Psi as a part of the Alpha Gamma class, Spring of 2012. Wei Ling has worked at Highland Capital, Microsoft, and Bain &amp; Co. At Stanford, Wei Ling is a member of the Stanford Equestrian Team and Stanford Consulting. Wei-Ling is interested in visiting new places, fashion, and social entrepreneurship.</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Nat Luu's Modal -->
-<div class="modal fade" id="luu-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h2 class="modal-title" id="myModalLabel">Natalie Luu</h2><h6><a href="https://www.linkedin.com/in/natalieluu">LinkedIn Profile</a></h6>
-      </div>
-      <div class="modal-body">
-        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/luu.jpg">
-        <h4 class="accent-text"><u>Hometown</u></h4><h5>San Francisco, CA</h5>
-        <h4 class="accent-text"><u>Positions Held</u></h4>
-        <h5>Qatalyst Partners<br>Accel-KKR<br>Microsoft<br>Y Combinator</h5>
-        <h4 class="accent-text"><u>Bio</u></h4>
-        <h5>Natalie Luu is a senior majoring a B.S. in Materials Science Engineering and a coterminal M.S. in Management Science &amp; Engineering. Natalie joined Alpha Kappa Psi in Spring 2012 as part of the Alpha Gamma class. Natalie has held internships in investment banking, private equity, product management, business development and venture capital. From working with her family's tea company, Natalie is passionate about traditional Chinese tea. Natalie also enjoys playing sports, martial arts, handcrafts and live music.</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Andrew Vazquez's Modal -->
-<div class="modal fade" id="andrewvazquez-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h2 class="modal-title" id="myModalLabel">Andrew Vazquez</h2><h6><a href="http://www.linkedin.com/pub/andrew-vazquez/78/b6b/a13">LinkedIn Profile</a></h6>
-      </div>
-      <div class="modal-body">
-        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/andrewvazquez.jpg">
-        <h4 class="accent-text"><u>Hometown</u></h4><h5>San Diego, CA</h5>
-        <h4 class="accent-text"><u>Positions Held</u></h4>
-        <h5>Private Wealth Management Intern at LPL Financial<br>Engineering Intern at NOAA<br>Marketing Intern at State Farm<br>Financial Writer<br>Editor and Managing Director of The Opportune Time, LLC.<br>Head Finance Editor of the Stanford Undergraduate Economics Journal<br>Intramural Soccer Referee</h5>
-        <h4 class="accent-text"><u>Bio</u></h4>
-        <h5>Andrew is a junior majoring in Economics. Andrew comes from San Diego, CA and joined Alpha Kappa Psi in the spring of 2013 (Alpha Epsilon Class). Andrew has done underwater robotics engineering with NOAA, Marketing for State Farm, and is currently Managing Director of the financial news company The Opportune Time, LLC. Andrew enjoys exercising, investing, and following La Liga soccer.</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Rachel Lee's Modal -->
-<div class="modal fade" id="rachellee-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h2 class="modal-title" id="myModalLabel">Rachel Lee</h2><h6><a href="https://www.linkedin.com/profile/view?id=234740091&trk">LinkedIn Profile</a></h6>
-      </div>
-      <div class="modal-body">
-        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/rachellee.jpg">
-        <h4 class="accent-text"><u>Hometown</u></h4><h5>Hong Kong</h5>
-        <h4 class="accent-text"><u>Positions Held</u></h4>
-        <h5>Bank of America Merrill Lynch Summer Analyst Intern<br>SoftBank Capital Associate Intern<br>AKPsi VP Business Development<br>Seneca International Programming Director<br>Teach For China Campus Ambassador</h5>
-        <h4 class="accent-text"><u>Bio</u></h4>
-        <h5>Rachel is a sophomore from Hong Kong majoring in Economics, and joined Alpha Kappa Psi in Spring 2014 with the Alpha Zeta Class. As a citizen of three countries (Hong Kong, Brazil, and Portugal), Rachel is interested broadly in international development, education, women's empowerment, and intercultural communication, as well as business management and technology. In her free time, she likes to travel, try new restaurants, explore the outdoors, and listen to music.</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Lorena Huang Liu's Modal -->
-<div class="modal fade" id="lorenahuangliu-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h2 class="modal-title" id="myModalLabel">Lorena Huang Liu</h2><h6><a href="https://www.linkedin.com/pub/lorena-huang-liu/83/188/15a/">LinkedIn Profile</a></h6>
-      </div>
-      <div class="modal-body">
-        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/lorenahuangliu.jpg">
-        <h4 class="accent-text"><u>Hometown</u></h4><h5>Mexico City, Mexico &amp; South Pasadena, CA</h5>
-        <h4 class="accent-text"><u>Positions Held</u></h4>
-        <h5>BASES Hackspace Officer<br>Twain RA 2014-2015</h5>
-        <h4 class="accent-text"><u>Bio</u></h4>
-        <h5>Lorena is a student at Stanford University majoring in Computer Science with a minor in Modern Languages. She is originally from Mexico City and moved to South Pasadena in 2008. She loves foreign languages and speaks Mandarin, Cantonese, French, Spanish, and English. Lorena enjoys traveling, reading, cooking, and singing. In her free time she likes to explore new places on and off campus and try new foods. Her life goal is to travel to 100 countries.</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Nicole Cuenca Modal -->
-<div class="modal fade" id="nicolecuenca-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h2 class="modal-title" id="myModalLabel">Nicole Cuenca</h2><h6><a href="https://www.linkedin.com/pub/nicole-cuenca/60/757/735">LinkedIn Profile</a></h6>
-      </div>
-      <div class="modal-body">
-        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/nicolecuenca.jpg">
-        <h4 class="accent-text"><u>Hometown</u></h4><h5>San Jose, CA</h5>
-        <h4 class="accent-text"><u>Positions Held</u></h4>
-        <h5>VP Membership<br>Pledge Class CFO</h5>
-        <h4 class="accent-text"><u>Bio</u></h4>
-        <h5>Nicole is a senior majoring in Economics, originally from San Jose, CA. She joined the Pi Tau Chapter of Alpha Kappa Psi as a part of the Alpha Delta class, Fall of 2013. Nicole’s interests lie in education and she has worked at NewSchools Venture Fund, the U.S. Dept. of Education, InnVision Shelter Network, the Stanford Social Innovation Review, and the Expanding College Opportunities research project with Prof. Caroline Hoxby. For fun, she also loves to play golf, take photos, and sit down with a good book.</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Melissa Chuang Modal -->
-<div class="modal fade" id="melissachuang-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h2 class="modal-title" id="myModalLabel">Melissa Chuang</h2><h6><a href="https://www.linkedin.com/profile/view?id=257704224&trk=nav_responsive_tab_profile_pic">LinkedIn Profile</a></h6>
-      </div>
-      <div class="modal-body">
-        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/melissachuang.jpg">
-        <h4 class="accent-text"><u>Hometown</u></h4><h5>Cupertino, CA</h5>
-        <h4 class="accent-text"><u>Positions Held</u></h4>
-        <h5>Service Scholar</h5>
-        <h4 class="accent-text"><u>Bio</u></h4>
-        <h5>Melissa is a Junior majoring in International Relations and pursuing a minor in CS. She is on the Stanford Women's Gymnastics team. In her spare time she loves doing public service, and hopes to explore the field of international education accessibility.</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Jessica Xu's Modal -->
-<div class="modal fade" id="jessicaxu-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h2 class="modal-title" id="myModalLabel">Jessica Xu</h2><h6><a href="http://lnkd.in/48sx7j">LinkedIn Profile</a></h6>
-      </div>
-      <div class="modal-body">
-        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/jessicaxu.jpg">
-        <h4 class="accent-text"><u>Hometown</u></h4><h5>Troy, MI</h5>
-        <h4 class="accent-text"><u>Positions Held</u></h4>
-        <h5>Officer in BASES<br>Core Member in AASA<br>Financial Officer (&amp; Co-Chair next year) for UCAA<br>Business Development fir GrubWithUs<br>Engineering Intern for Qualcomm<br>Design Intern at Chinese Academy of Sciences<br>Technology Consultant - Accenture</h5>
-        <h4 class="accent-text"><u>Bio</u></h4>
-        <h5>Jessica is a sophomore majoring in Economics and minoring in Computer Science. She comes from a place with 4 seasons called Troy, Michigan, and joined Alpha Kappa Psi in Spring 2013 (Alpha Epsilon Class). Jessica has interned at Qualcomm, GrubWithUs, and the Chinese Academy of Sciences, and this coming summer she will be working at Accenture. In her free time, she enjoys watching USA Network shows, working out, eating good food (especially tofu), and learning new languages and instruments.</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Kai Kane Aoki Izu Modal [NEEDS WORK]-->
-<div class="modal fade" id="kkaokiizu-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h2 class="modal-title" id="myModalLabel">Kai Kane Aoki Izu</h2><h6><a href="EMPTY">LinkedIn Profile</a></h6>
-      </div>
-      <div class="modal-body">
-        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/kkaokizu.jpg">
-        <h4 class="accent-text"><u>Hometown</u></h4><h5>San Jose, CA</h5>
-        <h4 class="accent-text"><u>Positions Held</u></h4>
-        <h5>VP Membership<br>Pledge Class CFO</h5>
-        <h4 class="accent-text"><u>Bio</u></h4>
-        <h5>Nicole is a junior majoring in Economics, originally from San Jose, CA. She joined the Pi Tau Chapter of Alpha Kappa Psi as a part of the Alpha Delta class, Fall of 2013. Nicole’s interests lie in education and she has worked at the U.S. Dept. of Education, InnVision Shelter Network, the Stanford Social Innovation Review, and the Expanding College Opportunities research project with Prof. Caroline Hoxby. For fun, she also loves to play golf, take photos, and sit down with a good book.</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Rotimi Opeke's Modal -->
-<div class="modal fade" id="opeke-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h2 class="modal-title" id="myModalLabel">Rotimi Opeke</h2><h6><a href="https://www.linkedin.com/in/opeke/">LinkedIn Profile</a></h6>
-      </div>
-      <div class="modal-body">
-        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/opeke.jpg">
-        <h4 class="accent-text"><u>Hometown</u></h4><h5>Princeton, NJ / Lagos, Nigeria/h5>
-        <h4 class="accent-text"><u>Positions Held</u></h4>
-        <h5>Software Engineering Intern --- Google<br>Network Design Intern --- Huawei Technologies Co. Ltd.<br>Investment Analyst --- Stanford Student Enterprises</h5>
-        <h4 class="accent-text"><u>Bio</u></h4>
-        <h5>Born in New Jersey.<br><br>Lived in California and Nigeria.<br><br>Currently studying Computer Science and hopes to leave Stanford with a skill-set that can complement other skills in our computer-centric future.</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Lindsey Txakeeyang's Modal [NEEDS WORK] -->
-<div class="modal fade" id="lindseytxakeeyang-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h2 class="modal-title" id="myModalLabel">Lindsey Txakeeyang</h2><h6><a href="NEED TO CHANGE">LinkedIn Profile</a></h6>
-      </div>
-      <div class="modal-body">
-        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/txakeeyang.jpg">
-        <h4 class="accent-text"><u>Hometown</u></h4><h5>San Jose, CA</h5>
-        <h4 class="accent-text"><u>Positions Held</u></h4>
-        <h5>VP Membership<br>Pledge Class CFO</h5>
-        <h4 class="accent-text"><u>Bio</u></h4>
-        <h5>Nicole is a junior majoring in Economics, originally from San Jose, CA. She joined the Pi Tau Chapter of Alpha Kappa Psi as a part of the Alpha Delta class, Fall of 2013. Nicole’s interests lie in education and she has worked at the U.S. Dept. of Education, InnVision Shelter Network, the Stanford Social Innovation Review, and the Expanding College Opportunities research project with Prof. Caroline Hoxby. For fun, she also loves to play golf, take photos, and sit down with a good book.</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Sandeep Arakali's Modal -->
-<div class="modal fade" id="arakali-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h2 class="modal-title" id="myModalLabel">Sandeep Arakali</h2><h6><a href="https://www.linkedin.com/profile/view?id=259726238&trk=nav_responsive_tab_profile">LinkedIn Profile</a></h6>
-      </div>
-      <div class="modal-body">
-        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/arakali.jpg">
-        <h4 class="accent-text"><u>Hometown</u></h4><h5>Troy, MI</h5>
-        <h4 class="accent-text"><u>Positions Held</u></h4>
-        <h5>Midshipman in US Navy<br>Member of Stanford Symphonic Chorus<br>VP of Finance for Stanford Military Service Network<br>Research at Aerosciences Lab at Los Alamos National Labs</h5>
-        <h4 class="accent-text"><u>Bio</u></h4>
-        <h5>Sandeep Arakali is currently a sophomore at Stanford University and will be graduating in 2016 as an Aeronautical/Astronautical Engineer. Following completion of his degree, he will be commissioning in the United States Navy as an Ensign and serving for a minimum of 5 years. Sandeep is also an art history minor as well as a member of Stanford Alpha Kappa Psi and the Stanford Symphonic Chorus. In his spare time, he enjoys running and listening to classical music.</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Mckenzie Andrews's Modal -->
-<div class="modal fade" id="andrews-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h2 class="modal-title" id="myModalLabel">McKenzie Andrews</h2><h6><a href="https://www.linkedin.com/profile/view?id=310591555&trk=nav_responsive_tab_profile_pic">LinkedIn Profile</a></h6>
-      </div>
-      <div class="modal-body">
-        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/andrews.jpg">
-        <h4 class="accent-text"><u>Hometown</u></h4><h5>Nashville, TN</h5>
-        <h4 class="accent-text"><u>Positions Held</u></h4>
-        <h5>Club Swim President<br>The Stanford Daily Columnist<br>Stanford International Affairs Society Director of Operations<br>Donner Resident Assistant<br>SIG Fellowship Recipient</h5>
-        <h4 class="accent-text"><u>Bio</u></h4>
-        <h5>McKenzie Andrews is a Junior from Nashville, TN pursuing a B.A. in Economics with a minor in Chinese. This past summer she worked with Stanford archeology in Peru, and prior to Stanford, she spent a year studying Chinese in Kaohsiung, Taiwan.
-
-        On campus, McKenzie interns with the Graduate School of Business' Alumni Consulting team and writes as an opinion columnist for the Stanford Daily. She loves Wilbur brunch and enjoys working out with Stanford's Club Swim team.</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Camilo Arevalo's Modal -->
-<div class="modal fade" id="arevalo-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h2 class="modal-title" id="myModalLabel">Camilo Arevalo</h2><h6><a href="https://www.linkedin.com/pub/camilo-arevalo/43/b48/b6">LinkedIn Profile</a></h6>
-      </div>
-      <div class="modal-body">
-        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/arevalo.jpg">
-        <h4 class="accent-text"><u>Hometown</u></h4><h5>Nashville, TN</h5>
-        <h4 class="accent-text"><u>Positions Held</u></h4>
-        <h5>Vice President of Membership for Pi Tau AKPsi<br>Vice President of Society of Latino Engineers<br>President of Alpha Delta Pledge Class<br>Engineering Intern at Bing Ads<br>Research Intern for Army High Performance Computing Research Center</h5>
-        <h4 class="accent-text"><u>Bio</u></h4>
-        <h5>Camilo is a junior majoring in Electrical Engineering with a concentration in software. Born and raised in sunny San Diego, he joined Alpha Kappa Psi in the fall of 2012 with the Alpha Delta pledge class. He has worked at Microsoft and the Stanford Army High Performance Computing Research Center, and will be working as a Program Manager for Xbox this summer. Camilo plans to pursue a career in the technology industry upon graduation, and is particularly interested in exploring the ways we interact with the machines that surround us. Camilo is also interested in jazz and classical music, playing the trumpet, and traveling to new places.</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Henry Cao's Modal -->
-<div class="modal fade" id="cao-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h2 class="modal-title" id="myModalLabel">Henry Yuhao Cao</h2><h6><a href="https://www.linkedin.com/pub/camilo-arevalo/43/b48/b6">LinkedIn Profile</a></h6>
-      </div>
-      <div class="modal-body">
-        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/cao.jpg">
-        <h4 class="accent-text"><u>Hometown</u></h4><h5>Guangzhou, China</h5>
-        <h4 class="accent-text"><u>Positions Held</u></h4>
-        <h5>President of Hong Kong Student Club<br>Summer Intern at Morgan Stanley Investment Banking Division<br>Consultant at World Bank Financial and Private Sector Development Team</h5>
-        <h4 class="accent-text"><u>Bio</u></h4>
-        <h5>Henry Yuhao Cao is pursuing a B.S. in Math and a coterminal M.S. in MS&amp;E. He was born and raised in Guangzhou, China, before coming to US for college education. He became a member of AKPsi in the spring of 2011 and has since enjoyed the brotherhood and professional development offered by AKPsi. Professionally, he has interned at Morgan Stanley and the World Bank. In his spare time, he loves reading, playing basketball, and having engaging conversations with brothers in AKPsi. </h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Daniel Chiu's Modal -->
-<div class="modal fade" id="chiu-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h2 class="modal-title" id="myModalLabel">Daniel Chiu</h2><h6><a href="https://www.linkedin.com/pub/daniel-chiu/4b/286/549">LinkedIn Profile</a></h6>
-      </div>
-      <div class="modal-body">
-        <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/chiu.jpg">
-        <h4 class="accent-text"><u>Hometown</u></h4><h5>San Diego, CA</h5>
-        <h4 class="accent-text"><u>Positions Held</u></h4>
-        <h5>Lightspeed Ventures Summer Fellow<br>BASES Business Development Officer<br>StartX Lead Engineer</h5>
-        <h4 class="accent-text"><u>Bio</u></h4>
-        <h5>Daniel is a B.S./M.S. in Computer Science with strong interests in entrepreneurship and business. Daniel’s past experience includes creating the StartX website and application and business development for BASES. Daniel believes in building things to make the world a better place, and hopes to start his own companies in order to follow his passions.</h5>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-  <div class="site-wrapper">
-    <div class="masthead clearfix">
-      <div class="logo-header">
-          <a href="index.html"><img class="logo" src="./bootstrap_3.1.1/img/akpsi_header_small.png"></a>
+    <!-- EMPTY Modal -->
+    <div class="portfolio-modal modal fade" id="[FILL IN]" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
         </div>
-        <!-- Navbar information -->
-        <ul class="nav masthead-nav right">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about-us.html">About Us</a></li>
-          <li class="active"><a href="brotherhood.html">The Brotherhood</a></li>
-          <li><a href="recruitment.html">Recruitment</a></li>
-          <li><a href="contact-us.html">Contact Us</a></li>
-        </ul>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>{NAME}</h2>
+                <h6 class="item-intro text-muted"><a href="[LINK]">LinkedIn Profile</a></h6>
+                <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/{IMAGE}.jpg">
+                <ul class="list-inline">
+                  <li>Major: {MAJOR}</li>
+                  <li>Year: {YEAR}</li>
+                </ul>
+                <h4 class="accent-text"><u>Hometown</u></h4><h5>{HOMETOWN}</h5>
+                <h4 class="accent-text"><u>Positions Held</u></h4>
+                <h6>VP Membership&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pledge Class CFO</h6>
+                <h4 class="accent-text"><u>Bio</u></h4>
+                <h5>{FILL IN}</h5>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Wei-Ling Heng's Modal -->
+    <div class="portfolio-modal modal fade" id="wei-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Wei-Ling Heng</h2>
+                <h6 class="item-intro text-muted"><a href="www.linkedin.com/in/weilingheng/">LinkedIn Profile</a></h6>
+                <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/weilingheng.jpg">
+                <ul class="list-inline">
+                  <li>Major: Economics</li>
+                  <li>Year: 2015</li>
+                </ul>
+                <h4 class="accent-text"><u>Hometown</u></h4><h5>Penang, Malaysia</h5>
+                <h4 class="accent-text"><u>Positions Held</u></h4>
+                <h6>Bain &amp; Co.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Highland Capital Partners&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Microsoft&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stanford Consulting Board Member&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Storey House Financial Manager</h6>
+                <h4 class="accent-text"><u>Bio</u></h4>
+                <h5>Wei-Ling is a junior majoring in Economics, originally from Penang, Malaysia. She joined the Pi Tau Chapter of Alpha Kappa Psi as a part of the Alpha Gamma class, Spring of 2012. Wei Ling has worked at Highland Capital, Microsoft, and Bain &amp; Co. At Stanford, Wei Ling is a member of the Stanford Equestrian Team and Stanford Consulting. Wei-Ling is interested in visiting new places, fashion, and social entrepreneurship.</h5>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Natalie Luu's Modal -->
+    <div class="portfolio-modal modal fade" id="luu-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Natalie Luu</h2>
+                <h6 class="item-intro text-muted"><a href="www.linkedin.com/in/natalieluu">LinkedIn Profile</a></h6>
+                <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/luu.jpg">
+                <ul class="list-inline">
+                  <li>Major: Material Science &amp; Engineering</li>
+                  <li>Year: 2015</li>
+                </ul>
+                <h4 class="accent-text"><u>Hometown</u></h4><h5>San Francisco, CA</h5>
+                <h4 class="accent-text"><u>Positions Held</u></h4>
+                <h6>Qatalyst Partners&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Accel-KKR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Microsoft&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Y Combinator</h6>
+                <h4 class="accent-text"><u>Bio</u></h4>
+                <h5>Natalie Luu is a senior majoring a B.S. in Materials Science Engineering and a coterminal M.S. in Management Science &amp; Engineering. Natalie joined Alpha Kappa Psi in Spring 2012 as part of the Alpha Gamma class. Natalie has held internships in investment banking, private equity, product management, business development and venture capital. From working with her family's tea company, Natalie is passionate about traditional Chinese tea. Natalie also enjoys playing sports, martial arts, handcrafts and live music.</h5>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Andrew Vazquez's Modal -->
+    <div class="portfolio-modal modal fade" id="andrewvazquez-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Andrew Vazquez</h2>
+                <h6 class="item-intro text-muted"><a href="http://www.linkedin.com/pub/andrew-vazquez/78/b6b/a13">LinkedIn Profile</a></h6>
+                <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/andrewvazquez.jpg">
+                <ul class="list-inline">
+                  <li>Major: Economics</li>
+                  <li>Year: 2016</li>
+                </ul>
+                <h4 class="accent-text"><u>Hometown</u></h4><h5>San Diego, Ca</h5>
+                <h4 class="accent-text"><u>Positions Held</u></h4>
+                <h6>LPL Financial&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NOAA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;State Farm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Opportune Time LLC.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Stanford Undergraduate Economics Journal</h6>
+                <h4 class="accent-text"><u>Bio</u></h4>
+                <h5>Andrew is a junior majoring in Economics. Andrew comes from San Diego, CA and joined Alpha Kappa Psi in the spring of 2013 (Alpha Epsilon Class). Andrew has done underwater robotics engineering with NOAA, Marketing for State Farm, and is currently Managing Director of the financial news company The Opportune Time, LLC. Andrew enjoys exercising, investing, and following La Liga soccer.</h5>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Rachel Lee's Modal -->
+    <div class="portfolio-modal modal fade" id="rachellee-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Rachel Lee</h2>
+                <h6 class="item-intro text-muted"><a href="https://www.linkedin.com/profile/view?id=234740091&trk">LinkedIn Profile</a></h6>
+                <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/rachellee.jpg">
+                <ul class="list-inline">
+                  <li>Major: Economics</li>
+                  <li>Year: 2016</li>
+                </ul>
+                <h4 class="accent-text"><u>Hometown</u></h4><h5>Hong Kong</h5>
+                <h4 class="accent-text"><u>Positions Held</u></h4>
+                <h6>Bank of America Merrill Lynch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SoftBank Capital&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AKPsi VP BizDev&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seneca International&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Teach for China</h6>
+                <h4 class="accent-text"><u>Bio</u></h4>
+                <h5>Rachel is a sophomore from Hong Kong majoring in Economics, and joined Alpha Kappa Psi in Spring 2014 with the Alpha Zeta Class. As a citizen of three countries (Hong Kong, Brazil, and Portugal), Rachel is interested broadly in international development, education, women's empowerment, and intercultural communication, as well as business management and technology. In her free time, she likes to travel, try new restaurants, explore the outdoors, and listen to music.</h5>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Lorena Huang Liu's Modal -->
+    <div class="portfolio-modal modal fade" id="lorenahuangliu-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Lorena Huang Liu</h2>
+                <h6 class="item-intro text-muted"><a href="https://www.linkedin.com/pub/lorena-huang-liu/83/188/15a/">LinkedIn Profile</a></h6>
+                <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/lorenahuangliu.jpg">
+                <ul class="list-inline">
+                  <li>Major: Computer Science</li>
+                  <li>Year: 2016</li>
+                </ul>
+                <h4 class="accent-text"><u>Hometown</u></h4><h5>Mexico City, Mexico&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;South Pasadena, CA</h5>
+                <h4 class="accent-text"><u>Positions Held</u></h4>
+                <h6>Microsoft&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BASES</h6>
+                <h4 class="accent-text"><u>Bio</u></h4>
+                <h5>Lorena is a student at Stanford University majoring in Computer Science with a minor in Modern Languages. She is originally from Mexico City and moved to South Pasadena in 2008. She loves foreign languages and speaks Mandarin, Cantonese, French, Spanish, and English. Lorena enjoys traveling, reading, cooking, and singing. In her free time she likes to explore new places on and off campus and try new foods. Her life goal is to travel to 100 countries.</h5>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Nicole Cuenca's Modal -->
+    <div class="portfolio-modal modal fade" id="nicolecuenca-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Nicole Cuenca</h2>
+                <h6 class="item-intro text-muted"><a href="https://www.linkedin.com/pub/nicole-cuenca/60/757/735">LinkedIn Profile</a></h6>
+                <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/nicolecuenca.jpg">
+                <ul class="list-inline">
+                  <li>Major: Economics</li>
+                  <li>Year: 2015</li>
+                </ul>
+                <h4 class="accent-text"><u>Hometown</u></h4><h5>San Jose, CA</h5>
+                <h4 class="accent-text"><u>Positions Held</u></h4>
+                <h6>VP Membership&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pledge Class CFO</h6>
+                <h4 class="accent-text"><u>Bio</u></h4>
+                <h5>Nicole is a senior majoring in Economics, originally from San Jose, CA. She joined the Pi Tau Chapter of Alpha Kappa Psi as a part of the Alpha Delta class, Fall of 2013. Nicole’s interests lie in education and she has worked at NewSchools Venture Fund, the U.S. Dept. of Education, InnVision Shelter Network, the Stanford Social Innovation Review, and the Expanding College Opportunities research project with Prof. Caroline Hoxby. For fun, she also loves to play golf, take photos, and sit down with a good book.</h5>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Melissa Chuang's Modal -->
+    <div class="portfolio-modal modal fade" id="melissachuang-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Melissa Chuang</h2>
+                <h6 class="item-intro text-muted"><a href="https://www.linkedin.com/profile/view?id=257704224&trk=nav_responsive_tab_profile_pic">LinkedIn Profile</a></h6>
+                <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/melissachuang.jpg">
+                <ul class="list-inline">
+                  <li>Major: International Relations</li>
+                  <li>Year: 2016</li>
+                </ul>
+                <h4 class="accent-text"><u>Hometown</u></h4><h5>Cupertino, CA</h5>
+                <h4 class="accent-text"><u>Positions Held</u></h4>
+                <h6>Service Scholar</h6>
+                <h4 class="accent-text"><u>Bio</u></h4>
+                <h5>Melissa is a Junior majoring in International Relations and pursuing a minor in CS. She is on the Stanford Women's Gymnastics team. In her spare time she loves doing public service, and hopes to explore the field of international education accessibility.</h5>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Jessica Xu's Modal -->
+    <div class="portfolio-modal modal fade" id="jessicaxu-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Jessica Xu</h2>
+                <h6 class="item-intro text-muted"><a href="http://lnkd.in/48sx7j">LinkedIn Profile</a></h6>
+                <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/jessicaxu.jpg">
+                <ul class="list-inline">
+                  <li>Major: Computer Science</li>
+                  <li>Year: 2016</li>
+                </ul>
+                <h4 class="accent-text"><u>Hometown</u></h4><h5>Troy, MI</h5>
+                <h4 class="accent-text"><u>Positions Held</u></h4>
+                <h6>BASES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AASA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UCAA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GrubWithUs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Qualcomm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chinese Academy of Sciences&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Accenture</h6>
+                <h4 class="accent-text"><u>Bio</u></h4>
+                <h5>Jessica is a sophomore majoring in Economics and minoring in Computer Science. She comes from a place with 4 seasons called Troy, Michigan, and joined Alpha Kappa Psi in Spring 2013 (Alpha Epsilon Class). Jessica has interned at Qualcomm, GrubWithUs, and the Chinese Academy of Sciences, and this coming summer she will be working at Accenture. In her free time, she enjoys watching USA Network shows, working out, eating good food (especially tofu), and learning new languages and instruments.</h5>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Kai Kane Aoki Izu Modal [NEEDS WORK]-->
+    <div class="modal fade" id="kkaokiizu-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h2 class="modal-title" id="myModalLabel">Kai Kane Aoki Izu</h2><h6><a href="EMPTY">LinkedIn Profile</a></h6>
+          </div>
+          <div class="modal-body">
+            <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/kkaokizu.jpg">
+            <h4 class="accent-text"><u>Hometown</u></h4><h5>San Jose, CA</h5>
+            <h4 class="accent-text"><u>Positions Held</u></h4>
+            <h5>VP Membership<br>Pledge Class CFO</h5>
+            <h4 class="accent-text"><u>Bio</u></h4>
+            <h5>Nicole is a junior majoring in Economics, originally from San Jose, CA. She joined the Pi Tau Chapter of Alpha Kappa Psi as a part of the Alpha Delta class, Fall of 2013. Nicole’s interests lie in education and she has worked at the U.S. Dept. of Education, InnVision Shelter Network, the Stanford Social Innovation Review, and the Expanding College Opportunities research project with Prof. Caroline Hoxby. For fun, she also loves to play golf, take photos, and sit down with a good book.</h5>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <!-- Rotimi Opeke's Modal -->
+    <div class="portfolio-modal modal fade" id="opeke-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Rotimi Opeke</h2>
+                <h6 class="item-intro text-muted"><a href="https://www.linkedin.com/in/opeke">LinkedIn Profile</a></h6>
+                <p class="item-intro text-muted">"Under normal circumstances, we'll win. Under abnormal circumstances, we'll still win."<br> - Jose Mourinho</p>
+                <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/opeke.jpg">
+                <ul class="list-inline">
+                  <li>Major: Computer Science</li>
+                  <li>Year: 2016</li>
+                </ul>
+                <h4 class="accent-text"><u>Hometown</u></h4><h5>Princeton, NJ / Lagos, Nigeria</h5>
+                <h4 class="accent-text"><u>Positions Held</u></h4>
+                <h6>Google&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Huawei Technologies Co. Ltd.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stanford Student Enterprises&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+                <h4 class="accent-text"><u>Bio</u></h4>
+                <h5>Born in New Jersey.<br><br>Lived in California and Nigeria.<br><br>Currently studying Computer Science and hopes to leave Stanford with a skill-set that can complement his interests within finance in our computer-centric future.</h5>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lindsey Txakeeyang's Modal [NEEDS WORK] -->
+      <div class="modal fade" id="lindseytxakeeyang-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h2 class="modal-title" id="myModalLabel">Lindsey Txakeeyang</h2><h6><a href="NEED TO CHANGE">LinkedIn Profile</a></h6>
+            </div>
+            <div class="modal-body">
+              <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/txakeeyang.jpg">
+              <h4 class="accent-text"><u>Hometown</u></h4><h5>San Jose, CA</h5>
+              <h4 class="accent-text"><u>Positions Held</u></h4>
+              <h5>VP Membership<br>Pledge Class CFO</h5>
+              <h4 class="accent-text"><u>Bio</u></h4>
+              <h5>Nicole is a junior majoring in Economics, originally from San Jose, CA. She joined the Pi Tau Chapter of Alpha Kappa Psi as a part of the Alpha Delta class, Fall of 2013. Nicole’s interests lie in education and she has worked at the U.S. Dept. of Education, InnVision Shelter Network, the Stanford Social Innovation Review, and the Expanding College Opportunities research project with Prof. Caroline Hoxby. For fun, she also loves to play golf, take photos, and sit down with a good book.</h5>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sandeep Arakali's Modal -->
+      <div class="modal fade" id="arakali-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h2 class="modal-title" id="myModalLabel">Sandeep Arakali</h2><h6><a href="https://www.linkedin.com/profile/view?id=259726238&trk=nav_responsive_tab_profile">LinkedIn Profile</a></h6>
+            </div>
+            <div class="modal-body">
+              <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/arakali.jpg">
+              <h4 class="accent-text"><u>Hometown</u></h4><h5>Troy, MI</h5>
+              <h4 class="accent-text"><u>Positions Held</u></h4>
+              <h5>Midshipman in US Navy<br>Member of Stanford Symphonic Chorus<br>VP of Finance for Stanford Military Service Network<br>Research at Aerosciences Lab at Los Alamos National Labs</h5>
+              <h4 class="accent-text"><u>Bio</u></h4>
+              <h5>Sandeep Arakali is currently a sophomore at Stanford University and will be graduating in 2016 as an Aeronautical/Astronautical Engineer. Following completion of his degree, he will be commissioning in the United States Navy as an Ensign and serving for a minimum of 5 years. Sandeep is also an art history minor as well as a member of Stanford Alpha Kappa Psi and the Stanford Symphonic Chorus. In his spare time, he enjoys running and listening to classical music.</h5>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mckenzie Andrews's Modal -->
+      <div class="modal fade" id="andrews-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h2 class="modal-title" id="myModalLabel">McKenzie Andrews</h2><h6><a href="https://www.linkedin.com/profile/view?id=310591555&trk=nav_responsive_tab_profile_pic">LinkedIn Profile</a></h6>
+            </div>
+            <div class="modal-body">
+              <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/andrews.jpg">
+              <h4 class="accent-text"><u>Hometown</u></h4><h5>Nashville, TN</h5>
+              <h4 class="accent-text"><u>Positions Held</u></h4>
+              <h5>Club Swim President<br>The Stanford Daily Columnist<br>Stanford International Affairs Society Director of Operations<br>Donner Resident Assistant<br>SIG Fellowship Recipient</h5>
+              <h4 class="accent-text"><u>Bio</u></h4>
+              <h5>McKenzie Andrews is a Junior from Nashville, TN pursuing a B.A. in Economics with a minor in Chinese. This past summer she worked with Stanford archeology in Peru, and prior to Stanford, she spent a year studying Chinese in Kaohsiung, Taiwan.
+
+                On campus, McKenzie interns with the Graduate School of Business' Alumni Consulting team and writes as an opinion columnist for the Stanford Daily. She loves Wilbur brunch and enjoys working out with Stanford's Club Swim team.</h5>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Camilo Arevalo's Modal -->
+        <div class="modal fade" id="arevalo-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h2 class="modal-title" id="myModalLabel">Camilo Arevalo</h2><h6><a href="https://www.linkedin.com/pub/camilo-arevalo/43/b48/b6">LinkedIn Profile</a></h6>
+              </div>
+              <div class="modal-body">
+                <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/arevalo.jpg">
+                <h4 class="accent-text"><u>Hometown</u></h4><h5>Nashville, TN</h5>
+                <h4 class="accent-text"><u>Positions Held</u></h4>
+                <h5>Vice President of Membership for Pi Tau AKPsi<br>Vice President of Society of Latino Engineers<br>President of Alpha Delta Pledge Class<br>Engineering Intern at Bing Ads<br>Research Intern for Army High Performance Computing Research Center</h5>
+                <h4 class="accent-text"><u>Bio</u></h4>
+                <h5>Camilo is a junior majoring in Electrical Engineering with a concentration in software. Born and raised in sunny San Diego, he joined Alpha Kappa Psi in the fall of 2012 with the Alpha Delta pledge class. He has worked at Microsoft and the Stanford Army High Performance Computing Research Center, and will be working as a Program Manager for Xbox this summer. Camilo plans to pursue a career in the technology industry upon graduation, and is particularly interested in exploring the ways we interact with the machines that surround us. Camilo is also interested in jazz and classical music, playing the trumpet, and traveling to new places.</h5>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Henry Cao's Modal -->
+        <div class="modal fade" id="cao-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h2 class="modal-title" id="myModalLabel">Henry Yuhao Cao</h2><h6><a href="https://www.linkedin.com/pub/camilo-arevalo/43/b48/b6">LinkedIn Profile</a></h6>
+              </div>
+              <div class="modal-body">
+                <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/cao.jpg">
+                <h4 class="accent-text"><u>Hometown</u></h4><h5>Guangzhou, China</h5>
+                <h4 class="accent-text"><u>Positions Held</u></h4>
+                <h5>President of Hong Kong Student Club<br>Summer Intern at Morgan Stanley Investment Banking Division<br>Consultant at World Bank Financial and Private Sector Development Team</h5>
+                <h4 class="accent-text"><u>Bio</u></h4>
+                <h5>Henry Yuhao Cao is pursuing a B.S. in Math and a coterminal M.S. in MS&amp;E. He was born and raised in Guangzhou, China, before coming to US for college education. He became a member of AKPsi in the spring of 2011 and has since enjoyed the brotherhood and professional development offered by AKPsi. Professionally, he has interned at Morgan Stanley and the World Bank. In his spare time, he loves reading, playing basketball, and having engaging conversations with brothers in AKPsi. </h5>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Daniel Chiu's Modal -->
+        <div class="modal fade" id="chiu-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h2 class="modal-title" id="myModalLabel">Daniel Chiu</h2><h6><a href="https://www.linkedin.com/pub/daniel-chiu/4b/286/549">LinkedIn Profile</a></h6>
+              </div>
+              <div class="modal-body">
+                <img class="modal-photo center" src="./bootstrap_3.1.1/img/modals/chiu.jpg">
+                <h4 class="accent-text"><u>Hometown</u></h4><h5>San Diego, CA</h5>
+                <h4 class="accent-text"><u>Positions Held</u></h4>
+                <h5>Lightspeed Ventures Summer Fellow<br>BASES Business Development Officer<br>StartX Lead Engineer</h5>
+                <h4 class="accent-text"><u>Bio</u></h4>
+                <h5>Daniel is a B.S./M.S. in Computer Science with strong interests in entrepreneurship and business. Daniel’s past experience includes creating the StartX website and application and business development for BASES. Daniel believes in building things to make the world a better place, and hopes to start his own companies in order to follow his passions.</h5>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="site-wrapper">
+          <div class="masthead clearfix">
+            <div class="logo-header">
+              <a href="index.html"><img class="logo" src="./bootstrap_3.1.1/img/akpsi_header_small.png"></a>
+            </div>
+            <!-- Navbar information -->
+            <ul class="nav masthead-nav right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li class="active dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">The Brotherhood<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Active Roster</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Where are Our Alumni Now?</a></li>
+                </ul>
+              </li>
+              <li><a href="recruitment.html">Recruitment</a></li>
+              <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+          </div>
     <!-- This is the div where all of the portraits of the members are stored. They are seperated out by
          ECOMM and Active Membership. Each member on the page gets a div for their profile and this makes
          it a lot easier to move/delete/add profiles -->
-    <div class="brotherhood_profiles">
-    <!-- The section for current members of ECOMM -->
-    <div class="class-divider" id="ecomm">
-        <h1 class="position-heading" id="execucomm">The 2014-2015 Executive Committee</h1>
-        <div class="president col-xs-6">
-          <img class="portrait-pres center" src="./bootstrap_3.1.1/img/ag/wei-ling_heng.jpg" data-toggle="modal" data-target="#wei-modal"/>
-          <h3 class="name center-text">Wei-Ling Heng</h3>
-          <h4 class="position center-text">President</h4>
-        </div>
-        <div class="president col-xs-6">
-          <img class="portrait-pres center" src="./bootstrap_3.1.1/img/ag/natalie_luu.jpg" data-toggle="modal" data-target="#luu-modal"/>
-          <h3 class="name center-text">Natalie Luu</h3>
-          <h4 class="position center-text">President</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-4">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ad/nicole_cuenca.jpg" data-toggle="modal" data-target="#nicolecuenca-modal"/>
-          <h4 class="name center-text">Nicole Cuenca</h4>
-          <h5 class="position center-text">VP Finance</h5>
-        </div>
-        <div class="vp col-xs-6 col-md-4">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ae/andrew_vazquez.jpg" data-toggle="modal" data-target="#andrewvazquez-modal"/>
-          <h4 class="name center-text">Andrew Vazquez</h4>
-          <h5 class="position center-text">VP Alumni</h5>
-        </div>
-        <div class="vp col-xs-6 col-md-4">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/rachel_lee.JPG" data-toggle="modal" data-target="#rachellee-modal"/>
-          <h4 class="name center-text">Rachel Lee</h4>
-          <h5 class="position center-text">VP Business Development</h5>
-        </div>
-        <div class="vp col-xs-6 col-md-4">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/lorena_huang_liu.JPG" data-toggle="modal" data-target="#lorenahuangliu-modal"/>
-          <h4 class="name center-text">Lorena Huang Liu</h4>
-          <h5 class="position center-text">VP Professional Development</h5>
-        </div>
-          <div class="vp col-xs-6 col-md-4">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ae/kaikaneaoki_izu.jpg"/>
-          <h4 class="name center-text">Kai Kane Aoki Izu</h4>
-          <h5 class="position center-text">VP Membership</h5>
-        </div>
-        <div class="vp col-xs-6 col-md-4">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/female-silhouette.jpg"/>
-          <h4 class="name center-text">Lindsay Txakeeyang</h4>
-          <h5 class="position center-text">VP Membership</h5>
-        </div>
-        <div class="vp col-xs-6 col-md-4">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ae/jessica_xu.jpg" data-toggle="modal" data-target="#jessicaxu-modal"/>
-          <h4 class="name center-text">Jessica Xu</h4>
-          <h5 class="position center-text">VP Wellness</h5>
-        </div>
-        <div class="vp col-xs-6 col-md-4">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/rotimi_opeke.JPG" data-toggle="modal" data-target="#opeke-modal"/>
-          <h4 class="name center-text">Rotimi Opeke</h4>
-          <h5 class="position center-text">VP Webmaster</h5>
-        </div>
-        <div class="vp col-xs-6 col-md-4">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/melissa_chuang.JPG" data-toggle="modal" data-target="#melissachuang-modal"/>
-          <h4 class="name center-text">Melissa Chuang</h4>
-          <h5 class="position center-text">VP External</h5>
-        </div>
-    </div>
-    <!-- The section for the rest of membership within AKPsi -->
-    <div class="actives">
-      <h1 class="position-heading" id="activmem">Active Membership</h1>
-      <div class="class-divider" id="active-membership">
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/heather_aholt.JPG"/>
-          <h4 class="name center-text">Heather Aholt</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/mckenzie_andrews.JPG" data-toggle="modal" data-target="#andrews-modal"/>
-          <h4 class="name center-text">McKenzie Andrews</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/veronica_anorve.JPG"/>
-          <h4 class="name center-text">Veronica Añorve</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/sandeep_arakali.JPG" data-toggle="modal" data-target="#arakali-modal"/>
-          <h4 class="name center-text">Sandeep Arakali</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ad/camilo_arevalo.jpg" data-toggle="modal" data-target="#arevalo-modal"/>
-          <h4 class="name center-text">Camilo Arevalo</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg" data-toggle="modal" data-target="#cao-modal"/>
-          <h4 class="name center-text">Henry Yuhao Cao</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/moiead_charawi.JPG"/>
-          <h4 class="name center-text">Moiead Chawari</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ad/will_chen.jpg"/>
-          <h4 class="name center-text">Will Chen</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/daniel_chiu.JPG" data-toggle="modal" data-target="#chiu-modal"/>
-          <h4 class="name center-text">Daniel Chiu</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
-          <h4 class="name center-text">Inseong Cho</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/kaijian_chua.JPG"/>
-          <h4 class="name center-text">Kai Jian Chua</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ag/francisco_cortes.jpg"/>
-          <h4 class="name center-text">Francisco Cortes</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ad/nicole_cuenca.jpg"/>
-          <h4 class="name center-text">Nicole Cuenca</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/taide_ding.JPG"/>
-          <h4 class="name center-text">Taide Ding</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
-          <h4 class="name center-text">Kelvin Do</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ae/ramon_flores.jpg"/>
-          <h4 class="name center-text">Ramon Flores</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ag/brandon_garcia.jpg"/>
-          <h4 class="name center-text">Brandon Garcia</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/female-silhouette.jpg"/>
-          <h4 class="name center-text">Emma Guth</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ae/darren_handoko.jpg"/>
-          <h4 class="name center-text">Darren Handoko</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
-          <h4 class="name center-text">Lucas Hansen</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
-          <h4 class="name center-text">Saunders Hayes</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ae/torin_herndon.jpg"/>
-          <h4 class="name center-text">Torin Herndon</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
-          <h4 class="name center-text">Devon Hinton</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ag/chad_kamisugi.jpg"/>
-          <h4 class="name center-text">Chad Kamisugi</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/female-silhouette.jpg"/>
-          <h4 class="name center-text">Sunli Kim</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
-          <h4 class="name center-text">Steve Kim</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/vivian_kong.JPG"/>
-          <h4 class="name center-text">Vivian Kong</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
-          <h4 class="name center-text">Naveen Krishnamurthi</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/other/janice_lan.jpg"/>
-          <h4 class="name center-text">Janice Lan</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/sunmi_lee.JPG"/>
-          <h4 class="name center-text">SunMi Lee</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/ericchengshu_li.JPG"/>
-          <h4 class="name center-text">Eric ChengShu Li</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
-          <h4 class="name center-text">Daniel Liem</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/jason_lopata.JPG"/>
-          <h4 class="name center-text">Jason Lopata</h4>
-        </div>
-         <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/female-silhouette.jpg"/>
-          <h4 class="name center-text">Alina Luk</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
-          <h4 class="name center-text">Kevin Madrigal</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/female-silhouette.jpg"/>
-          <h4 class="name center-text">Elisha Marquez</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
-          <h4 class="name center-text">Leo Martel</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/joshua_mendoza.JPG"/>
-          <h4 class="name center-text">Joshua Mendoza</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ab/kaiyuan_neo.jpg"/>
-          <h4 class="name center-text">Kai-Yuan Neo</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ad/natalie_nguyen.jpg"/>
-          <h4 class="name center-text">Natalie Nguyen</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
-          <h4 class="name center-text">Ryan Perez</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/steven_qian.JPG"/>
-          <h4 class="name center-text">Steven Qian</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/catherine_tadina.JPG"/>
-          <h4 class="name center-text">Catherine Ann Tadina</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/kevin_wang.JPG"/>
-          <h4 class="name center-text">Kevin Wang</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ag/justin_wiguna.jpg"/>
-          <h4 class="name center-text">Justin Wiguna</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
-          <h4 class="name center-text">Oscar Wong</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/other/simon_xin.jpg"/>
-          <h4 class="name center-text">Simon Zheng</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/evelyn_xue.JPG"/>
-          <h4 class="name center-text">Evelyn Xue</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/ae/linda_yu.jpg"/>
-          <h4 class="name center-text">Linda Yu</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/allen_yu.JPG"/>
-          <h4 class="name center-text">Allen Yu</h4>
-        </div>
-        <div class="vp col-xs-6 col-md-3">
-          <img class="portrait center" src="./bootstrap_3.1.1/img/az/chenyao_yu.JPG"/>
-          <h4 class="name center-text">Chenyao Yu</h4>
+         <div class="brotherhood_profiles">
+          <!-- The section for current members of ECOMM -->
+          <div class="class-divider" id="ecomm">
+            <h1 class="position-heading" id="execucomm">The 2014-2015 Executive Committee</h1>
+            <div class="president col-xs-6">
+              <img class="portrait-pres center" src="./bootstrap_3.1.1/img/ag/wei-ling_heng.jpg" data-toggle="modal" data-target="#wei-modal"/>
+              <h3 class="name center-text">Wei-Ling Heng</h3>
+              <h4 class="position center-text">President</h4>
+            </div>
+            <div class="president col-xs-6">
+              <img class="portrait-pres center" src="./bootstrap_3.1.1/img/ag/natalie_luu.jpg" data-toggle="modal" data-target="#luu-modal"/>
+              <h3 class="name center-text">Natalie Luu</h3>
+              <h4 class="position center-text">President</h4>
+            </div>
+            <div class="vp col-xs-6 col-md-4">
+              <img class="portrait center" src="./bootstrap_3.1.1/img/ad/nicole_cuenca.jpg" data-toggle="modal" data-target="#nicolecuenca-modal"/>
+              <h4 class="name center-text">Nicole Cuenca</h4>
+              <h5 class="position center-text">VP Finance</h5>
+            </div>
+            <div class="vp col-xs-6 col-md-4">
+              <img class="portrait center" src="./bootstrap_3.1.1/img/ae/andrew_vazquez.jpg" data-toggle="modal" data-target="#andrewvazquez-modal"/>
+              <h4 class="name center-text">Andrew Vazquez</h4>
+              <h5 class="position center-text">VP Alumni</h5>
+            </div>
+            <div class="vp col-xs-6 col-md-4">
+              <img class="portrait center" src="./bootstrap_3.1.1/img/az/rachel_lee.JPG" data-toggle="modal" data-target="#rachellee-modal"/>
+              <h4 class="name center-text">Rachel Lee</h4>
+              <h5 class="position center-text">VP Business Development</h5>
+            </div>
+            <div class="vp col-xs-6 col-md-4">
+              <img class="portrait center" src="./bootstrap_3.1.1/img/az/lorena_huang_liu.JPG" data-toggle="modal" data-target="#lorenahuangliu-modal"/>
+              <h4 class="name center-text">Lorena Huang Liu</h4>
+              <h5 class="position center-text">VP Professional Development</h5>
+            </div>
+            <div class="vp col-xs-6 col-md-4">
+              <img class="portrait center" src="./bootstrap_3.1.1/img/ae/kaikaneaoki_izu.jpg"/>
+              <h4 class="name center-text">Kai Kane Aoki Izu</h4>
+              <h5 class="position center-text">VP Membership</h5>
+            </div>
+            <div class="vp col-xs-6 col-md-4">
+              <img class="portrait center" src="./bootstrap_3.1.1/img/female-silhouette.jpg"/>
+              <h4 class="name center-text">Lindsay Txakeeyang</h4>
+              <h5 class="position center-text">VP Membership</h5>
+            </div>
+            <div class="vp col-xs-6 col-md-4">
+              <img class="portrait center" src="./bootstrap_3.1.1/img/ae/jessica_xu.jpg" data-toggle="modal" data-target="#jessicaxu-modal"/>
+              <h4 class="name center-text">Jessica Xu</h4>
+              <h5 class="position center-text">VP Wellness</h5>
+            </div>
+            <div class="vp col-xs-6 col-md-4">
+              <a href="#opeke-modal" class="portfolio-link" data-toggle="modal">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/rotimi_opeke.JPG"/>
+              </a>
+              <h4 class="name center-text">Rotimi Opeke</h4>
+              <h5 class="position center-text">VP Webmaster</h5>
+            </div>
+            <div class="vp col-xs-6 col-md-4">
+              <img class="portrait center" src="./bootstrap_3.1.1/img/az/melissa_chuang.JPG" data-toggle="modal" data-target="#melissachuang-modal"/>
+              <h4 class="name center-text">Melissa Chuang</h4>
+              <h5 class="position center-text">VP External</h5>
+            </div>
+          </div>
+          <!-- The section for the rest of membership within AKPsi -->
+          <div class="actives">
+            <h1 class="position-heading" id="activmem">Active Membership</h1>
+            <div class="class-divider" id="active-membership">
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/heather_aholt.JPG"/>
+                <h4 class="name center-text">Heather Aholt</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/mckenzie_andrews.JPG" data-toggle="modal" data-target="#andrews-modal"/>
+                <h4 class="name center-text">McKenzie Andrews</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/veronica_anorve.JPG"/>
+                <h4 class="name center-text">Veronica Añorve</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/sandeep_arakali.JPG" data-toggle="modal" data-target="#arakali-modal"/>
+                <h4 class="name center-text">Sandeep Arakali</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/ad/camilo_arevalo.jpg" data-toggle="modal" data-target="#arevalo-modal"/>
+                <h4 class="name center-text">Camilo Arevalo</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg" data-toggle="modal" data-target="#cao-modal"/>
+                <h4 class="name center-text">Henry Yuhao Cao</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/moiead_charawi.JPG"/>
+                <h4 class="name center-text">Moiead Chawari</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/ad/will_chen.jpg"/>
+                <h4 class="name center-text">Will Chen</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/daniel_chiu.JPG" data-toggle="modal" data-target="#chiu-modal"/>
+                <h4 class="name center-text">Daniel Chiu</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
+                <h4 class="name center-text">Inseong Cho</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/kaijian_chua.JPG"/>
+                <h4 class="name center-text">Kai Jian Chua</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/ag/francisco_cortes.jpg"/>
+                <h4 class="name center-text">Francisco Cortes</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/ad/nicole_cuenca.jpg"/>
+                <h4 class="name center-text">Nicole Cuenca</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/taide_ding.JPG"/>
+                <h4 class="name center-text">Taide Ding</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
+                <h4 class="name center-text">Kelvin Do</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/ae/ramon_flores.jpg"/>
+                <h4 class="name center-text">Ramon Flores</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/ag/brandon_garcia.jpg"/>
+                <h4 class="name center-text">Brandon Garcia</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/female-silhouette.jpg"/>
+                <h4 class="name center-text">Emma Guth</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/ae/darren_handoko.jpg"/>
+                <h4 class="name center-text">Darren Handoko</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
+                <h4 class="name center-text">Lucas Hansen</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
+                <h4 class="name center-text">Saunders Hayes</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/ae/torin_herndon.jpg"/>
+                <h4 class="name center-text">Torin Herndon</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
+                <h4 class="name center-text">Devon Hinton</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/ag/chad_kamisugi.jpg"/>
+                <h4 class="name center-text">Chad Kamisugi</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/female-silhouette.jpg"/>
+                <h4 class="name center-text">Sunli Kim</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
+                <h4 class="name center-text">Steve Kim</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/vivian_kong.JPG"/>
+                <h4 class="name center-text">Vivian Kong</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
+                <h4 class="name center-text">Naveen Krishnamurthi</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/other/janice_lan.jpg"/>
+                <h4 class="name center-text">Janice Lan</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/sunmi_lee.JPG"/>
+                <h4 class="name center-text">SunMi Lee</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/ericchengshu_li.JPG"/>
+                <h4 class="name center-text">Eric ChengShu Li</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
+                <h4 class="name center-text">Daniel Liem</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/jason_lopata.JPG"/>
+                <h4 class="name center-text">Jason Lopata</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/female-silhouette.jpg"/>
+                <h4 class="name center-text">Alina Luk</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
+                <h4 class="name center-text">Kevin Madrigal</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/female-silhouette.jpg"/>
+                <h4 class="name center-text">Elisha Marquez</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
+                <h4 class="name center-text">Leo Martel</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/joshua_mendoza.JPG"/>
+                <h4 class="name center-text">Joshua Mendoza</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/ab/kaiyuan_neo.jpg"/>
+                <h4 class="name center-text">Kai-Yuan Neo</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/ad/natalie_nguyen.jpg"/>
+                <h4 class="name center-text">Natalie Nguyen</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
+                <h4 class="name center-text">ChangYoung Park</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
+                <h4 class="name center-text">Ryan Perez</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/steven_qian.JPG"/>
+                <h4 class="name center-text">Steven Qian</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/catherine_tadina.JPG"/>
+                <h4 class="name center-text">Catherine Ann Tadina</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/kevin_wang.JPG"/>
+                <h4 class="name center-text">Kevin Wang</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/ag/justin_wiguna.jpg"/>
+                <h4 class="name center-text">Justin Wiguna</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/man-silhouette.jpg"/>
+                <h4 class="name center-text">Oscar Wong</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/other/simon_xin.jpg"/>
+                <h4 class="name center-text">Simon Zheng</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/evelyn_xue.JPG"/>
+                <h4 class="name center-text">Evelyn Xue</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/ae/linda_yu.jpg"/>
+                <h4 class="name center-text">Linda Yu</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/allen_yu.JPG"/>
+                <h4 class="name center-text">Allen Yu</h4>
+              </div>
+              <div class="vp col-xs-6 col-md-3">
+                <img class="portrait center" src="./bootstrap_3.1.1/img/az/chenyao_yu.JPG"/>
+                <h4 class="name center-text">Chenyao Yu</h4>
+              </div>
+            </div>
+            <h2 class="class-heading" id="chapter-advisor">Chapter Advisor</h2>
+            <div class="class-divider">  
+              <div>
+                <img class="portrait center special-position" src="./bootstrap_3.1.1/img/other/stephen_quinonez.jpg"/>
+                <h4 class="name center-text">Stephen Quiñonez</h4>
+              </div>
+            </div>
+            <div class="class-divider">
+              <h1 class="position-heading" id="alum">Where Are Our Alumni Now?</h1>
+              <div class="col-md-12" id="alumni-lists">
+                <div class="col-md-3" id="finance-alum">
+                  <h2 class="class-heading industry" id="finance">Finance</h2>
+                  <img class="center" id="a16z" src="./bootstrap_3.1.1/img/companies/finance/a16z.png"/>
+                  <img class="center" id="barclays" src="./bootstrap_3.1.1/img/companies/finance/barclays.png"/>
+                  <img class="center" id="citi" src="./bootstrap_3.1.1/img/companies/finance/citi.png"/>
+                  <img class="center" id="gs" src="./bootstrap_3.1.1/img/companies/finance/gs.png"/>
+                  <img class="center" id="jpmorgan" src="./bootstrap_3.1.1/img/companies/finance/jpm.png"/>
+                  <img class="center" id="lazard" src="./bootstrap_3.1.1/img/companies/finance/lazard.png"/>
+                  <img class="center" id="baml" src="./bootstrap_3.1.1/img/companies/finance/merrill.png"/>
+                  <img class="center" id="moodys" src="./bootstrap_3.1.1/img/companies/finance/moodys.png"/>
+                  <img class="center" src="./bootstrap_3.1.1/img/companies/finance/ms.png"/>
+                  <img class="center" id="qatalyst" src="./bootstrap_3.1.1/img/companies/finance/qatalyst.png"/>
+                  <img class="center" id="tcv" src="./bootstrap_3.1.1/img/companies/finance/tcv.png"/>
+                </div>
+                <div class="col-md-3" id="consulting-alum">
+                  <h2 class="class-heading industry" id="consulting">Consulting</h2>
+                  <img class="center" id="accenture" src="./bootstrap_3.1.1/img/companies/consulting/accenture.png"/>
+                  <img class="center" id="bain" src="./bootstrap_3.1.1/img/companies/consulting/bain.png"/>
+                  <img class="center" src="./bootstrap_3.1.1/img/companies/consulting/bcg.png"/>
+                  <img class="center" src="./bootstrap_3.1.1/img/companies/consulting/kpmg.png"/>
+                  <img class="center" src="./bootstrap_3.1.1/img/companies/consulting/mckinsey.png"/>
+                  <img class="center" id="pwc" src="./bootstrap_3.1.1/img/companies/consulting/pwc.png"/>
+                </div>
+                <div class="col-md-3" id="technology-alum">
+                  <h2 class="class-heading industry" id="technology">Technology</h2>
+                  <img class="center" id="apple" src="./bootstrap_3.1.1/img/companies/technology/apple.png"/>
+                  <img class="center" id="cisco" src="./bootstrap_3.1.1/img/companies/technology/cisco.png"/>
+                  <img class="center" id="dropbox" src="./bootstrap_3.1.1/img/companies/technology/dropbox.png"/>
+                  <img class="center" id="facebook" src="./bootstrap_3.1.1/img/companies/technology/facebook.png"/>
+                  <img class="center" id="genentech" src="./bootstrap_3.1.1/img/companies/technology/genentech.png"/>
+                  <img class="center" id="google" src="./bootstrap_3.1.1/img/companies/technology/google.png"/>
+                  <img class="center" id="linkedin" src="./bootstrap_3.1.1/img/companies/technology/linkedin.png"/>
+                  <img class="center" id="microsoft" src="./bootstrap_3.1.1/img/companies/technology/microsoft.png"/>
+                  <img class="center" id="snapchat" src="./bootstrap_3.1.1/img/companies/technology/snapchat.png">
+                  <img class="center" id="twitter" src="./bootstrap_3.1.1/img/companies/technology/twitter.png"/>
+                </div>
+                <div class="col-md-3" id="nonprofit-alum">
+                  <h2 class="class-heading industry" id="non-profit">Non-Profit</h2>
+                  <img class="center" id="drk" src="./bootstrap_3.1.1/img/companies/non-profit/drk.png"/>
+                  <img class="center" src="./bootstrap_3.1.1/img/companies/non-profit/tfa.png"/>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <h2 class="class-heading" id="chapter-advisor">Chapter Advisor</h2>
-      <div class="class-divider">  
-        <div>
-          <img class="portrait center special-position" src="./bootstrap_3.1.1/img/other/stephen_quinonez.jpg"/>
-          <h4 class="name center-text">Stephen Quiñonez</h4>
-        </div>
-      </div>
-      <div class="class-divider">
-        <h1 class="position-heading" id="alum">Where Are Our Alumni Now?</h1>
-        <div class="col-md-12" id="alumni-lists">
-          <div class="col-md-3" id="finance-alum">
-            <h2 class="class-heading industry" id="finance">Finance</h2>
-            <img class="center" id="a16z" src="./bootstrap_3.1.1/img/companies/finance/a16z.png"/>
-            <img class="center" id="barclays" src="./bootstrap_3.1.1/img/companies/finance/barclays.png"/>
-            <img class="center" id="citi" src="./bootstrap_3.1.1/img/companies/finance/citi.png"/>
-            <img class="center" id="gs" src="./bootstrap_3.1.1/img/companies/finance/gs.png"/>
-            <img class="center" id="jpmorgan" src="./bootstrap_3.1.1/img/companies/finance/jpm.png"/>
-            <img class="center" id="lazard" src="./bootstrap_3.1.1/img/companies/finance/lazard.png"/>
-            <img class="center" id="baml" src="./bootstrap_3.1.1/img/companies/finance/merrill.png"/>
-            <img class="center" id="moodys" src="./bootstrap_3.1.1/img/companies/finance/moodys.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/finance/ms.png"/>
-            <img class="center" id="qatalyst" src="./bootstrap_3.1.1/img/companies/finance/qatalyst.png"/>
-            <img class="center" id="tcv" src="./bootstrap_3.1.1/img/companies/finance/tcv.png"/>
-          </div>
-          <div class="col-md-3" id="consulting-alum">
-            <h2 class="class-heading industry" id="consulting">Consulting</h2>
-            <img class="center" id="accenture" src="./bootstrap_3.1.1/img/companies/consulting/accenture.png"/>
-            <img class="center" id="bain" src="./bootstrap_3.1.1/img/companies/consulting/bain.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/consulting/bcg.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/consulting/kpmg.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/consulting/mckinsey.png"/>
-            <img class="center" id="pwc" src="./bootstrap_3.1.1/img/companies/consulting/pwc.png"/>
-          </div>
-          <div class="col-md-3" id="technology-alum">
-            <h2 class="class-heading industry" id="technology">Technology</h2>
-            <img class="center" id="apple" src="./bootstrap_3.1.1/img/companies/technology/apple.png"/>
-            <img class="center" id="cisco" src="./bootstrap_3.1.1/img/companies/technology/cisco.png"/>
-            <img class="center" id="dropbox" src="./bootstrap_3.1.1/img/companies/technology/dropbox.png"/>
-            <img class="center" id="facebook" src="./bootstrap_3.1.1/img/companies/technology/facebook.png"/>
-            <img class="center" id="genentech" src="./bootstrap_3.1.1/img/companies/technology/genentech.png"/>
-            <img class="center" id="google" src="./bootstrap_3.1.1/img/companies/technology/google.png"/>
-            <img class="center" id="linkedin" src="./bootstrap_3.1.1/img/companies/technology/linkedin.png"/>
-            <img class="center" id="microsoft" src="./bootstrap_3.1.1/img/companies/technology/microsoft.png"/>
-            <img class="center" id="snapchat" src="./bootstrap_3.1.1/img/companies/technology/snapchat.png">
-            <img class="center" id="twitter" src="./bootstrap_3.1.1/img/companies/technology/twitter.png"/>
-          </div>
-          <div class="col-md-3" id="nonprofit-alum">
-            <h2 class="class-heading industry" id="non-profit">Non-Profit</h2>
-            <img class="center" id="drk" src="./bootstrap_3.1.1/img/companies/non-profit/drk.png"/>
-            <img class="center" src="./bootstrap_3.1.1/img/companies/non-profit/tfa.png"/>
-          </div>
-        </div>
-      </div>
     </div>
-    </div>
-  </div>
-</div>
-</body>
-</html>
+  </body>
+  </html>

@@ -165,3 +165,6 @@ body {
 .modal-photo {
 	max-width: 20em;
 }
+.no-margin {
+	margin: 0px;
+}
