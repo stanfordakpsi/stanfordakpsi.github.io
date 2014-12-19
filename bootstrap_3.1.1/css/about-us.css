@@ -35,8 +35,8 @@
 	background-color: #355664;
 	opacity: 0.95;
     margin: 0 auto;
-    min-width: 980px;
-    width: 980px;
+    /*min-width: 980px;*/
+    width: 68.055555555%; /* 980/1440 * 100 */
 }
 .information {
 	font-family: 'Merriweather Sans';
@@ -55,7 +55,7 @@
 /* If screen width is below 800px, moves nav bar down so it does not interfere with logo */
 @media screen and (max-width: 770px) {
     .nav {
-        padding-top: 20px;
+        padding-top: 25px;
     }
 }
 
