@@ -52,6 +52,13 @@
 	text-align: center;
 }
 
+/* If screen width is below 800px, moves nav bar down so it does not interfere with logo */
+@media screen and (max-width: 770px) {
+    .nav {
+        padding-top: 20px;
+    }
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
