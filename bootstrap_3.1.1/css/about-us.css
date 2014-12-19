@@ -38,8 +38,8 @@
 	background-color: #355664;
 	opacity: 0.95;
     margin: 0 auto;
-    min-width: 400px;
-    width: 80%; /* 980/1440 * 100 */
+    min-width: 980px;
+    width: 980px;
 }
 .information {
 	font-family: 'Merriweather Sans';
@@ -61,13 +61,6 @@
         padding-top: 25px;
     }
 }
-
-@media screen and (max-width: 770px) {
-    #nav { 
-        position: absolute; 
-    }
-}
-
 
 ul {
 	list-style-type: none;
