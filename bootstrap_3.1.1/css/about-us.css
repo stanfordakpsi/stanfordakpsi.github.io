@@ -51,7 +51,7 @@
 	text-align: center;
 }
 
-/* If screen width is below 770px, moves nav bar down so it does not interfere with logo */
+/* If screen width is below 770px, moves nav bar down so it does not interfere with logo 
 @media screen and (max-width: 770px) {
     .nav {
         padding-top: 25px;
@@ -85,4 +85,4 @@ h1, h4 {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	color: #95A0A3;
-}
+} */
