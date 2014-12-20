@@ -1,4 +1,4 @@
-  <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
   <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -33,11 +33,12 @@
     <link rel="stylesheet" type="text/css" href="./bootstrap_3.1.1/css/about-us.css"/>
     <!-- Script to load jQuery file -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-    
     <!-- These are the three scripts needed to give the page the needed parallax scroll effect and give the fixed buttons
     at the top the ability to scroll to the correct points on the page -->
     <!-- **TODO** need to give proper credit here where it is due -->
-    
+    <script type="text/javascript" src="bootstrap_3.1.1/js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="bootstrap_3.1.1/js/jquery.localscroll-1.2.7-min.js"></script>
+    <script type="text/javascript" src="bootstrap_3.1.1/js/jquery.scrollTo-1.4.2-min.js"></script>
     <!-- Script loaded to fix four topmost buttons to the top of the screen! -->
     <script src="./bootstrap_3.1.1/js/jquery-scrolltofixed.js"></script>
     <!-- This script describes what page element should be fixed to the top -->
@@ -51,16 +52,16 @@
         $('#nav').localScroll();
       })
     </script>
+    <script src="./bootstrap_3.1.1/js/bootstrap.js"></script>
     <!-- Google Analytics -->
-    // <script>
-    //   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    //     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    //     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    //   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    //   ga('create', 'UA-55636292-1', 'auto');
-    //   ga('send', 'pageview');
-    // </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-55636292-1', 'auto');
+      ga('send', 'pageview');
+    </script>
   </head>
   <body>
     <div class="site-wrapper">
@@ -166,8 +167,4 @@
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="bootstrap_3.1.1/js/jquery.parallax-1.1.3.js"></script>
-    <script type="text/javascript" src="bootstrap_3.1.1/js/jquery.localscroll-1.2.7-min.js"></script>
-    <script type="text/javascript" src="bootstrap_3.1.1/js/jquery.scrollTo-1.4.2-min.js"></script>
-    <script src="./bootstrap_3.1.1/js/bootstrap.min.js"></script>
   </body>

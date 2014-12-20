@@ -35,7 +35,8 @@
 	background-color: #355664;
 	opacity: 0.95;
     margin: 0 auto;
-    width: 75%
+    min-width: 980px;
+    width: 980px; 
 }
 .information {
 	font-family: 'Merriweather Sans';
