@@ -39,3 +39,9 @@
     opacity:0;
     z-index:2;
 }
+
+@media screen and (max-device-width: 770px) {
+    .carousel .item {
+        background: #404040 url(lolstorms);
+    }
+}

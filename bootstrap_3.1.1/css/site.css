@@ -3,9 +3,9 @@ body {
 	font-weight: 300;
 }
 .content_well {
-	height: 475px;
-	width: 300px;
-	background-color: #000000;
+	height: 72vh;
+	width: 25vw;
+	background-color: #111111;
 	display: line-block;
 	border-radius: 10px;
 	margin: 0 auto;
@@ -13,11 +13,32 @@ body {
 }
 
 #fraternity_logo {
-  height: 60%;
+  height: 40vh;
+  width: 20vw;
 }
 
 .site-wrapper {
 	background-color: #FFF;
+}
+
+/* For responsive design on the index.html page */
+
+@media screen and (max-device-width: 770px) {
+  .content_well {
+  	width: 70vw;
+  }
+  #fraternity_logo {
+  	width: 50vw;
+  }
+  .cover-heading {
+  	font-size: 7.5vw;
+  }
+  li {
+  	background-color: #F8F8F8;
+  }
+  .logo {
+  	visibility: hidden;
+  }
 }
 
 /*Redudant code from the cover css file*/
@@ -180,7 +201,7 @@ body {
 	background-color: #FFF;
 }
 .logo-header {
-	margin-bottom: -44px;
+	margin-bottom: -30px;
 }
 .modal-photo {
 	max-width: 20em;

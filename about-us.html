@@ -41,18 +41,6 @@
     <script type="text/javascript" src="bootstrap_3.1.1/js/jquery.scrollTo-1.4.2-min.js"></script>
     <!-- Script loaded to fix four topmost buttons to the top of the screen! -->
     <script src="./bootstrap_3.1.1/js/jquery-scrolltofixed.js"></script>
-    <!-- This script describes what page element should be fixed to the top -->
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('#nav').scrollToFixed();
-      });
-    </script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $('#nav').localScroll();
-      })
-    </script>
-    <script src="./bootstrap_3.1.1/js/bootstrap.js"></script>
     <!-- Google Analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -85,39 +73,6 @@
           <li><a href="contact-us.html">Contact Us</a></li>
         </ul>
       </div>
-    <!-- List to hold the navigation items at the top. All of the "fa" elements listed here
-         are meant to denote the icons that are part of the font-awesome css package that
-         is included up top -->
-         <ul id="nav">
-          <li>
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-bitcoin fa-stack-1x fa-inverse"></i>
-            </span>
-            <a href="#intro" title="Next Section">Introduction</a>
-          </li>
-          <li>
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-dollar fa-stack-1x fa-inverse"></i>
-            </span>
-            <a href="#second" title="Next Section">Overview</a>
-          </li>
-          <li>
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-yen fa-stack-1x fa-inverse"></i>
-            </span>
-            <a href="#third" title="Next Section">Our Mission</a>
-          </li>
-          <li>
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i class="fa fa-gbp fa-stack-1x fa-inverse"></i>
-            </span>
-            <a href="#fourth" title="Next Section">Brotherhood</a>
-          </li>
-        </ul>
     <!-- Each one of the major pieces on the page are denoted by an id, i.e., "intro" or "second" or "third"
     and hold the title, saved as a statement, and the information itself -->
     <div id="intro">
@@ -167,4 +122,5 @@
         </div>
       </div>
     </div>
+    <script src="./bootstrap_3.1.1/js/bootstrap.js"></script>
   </body>
