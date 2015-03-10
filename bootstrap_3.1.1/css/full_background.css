@@ -45,3 +45,7 @@
         background: #404040 url(lolstorms);
     }
 }
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFFFFF;
+}
