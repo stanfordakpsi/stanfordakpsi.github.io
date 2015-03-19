@@ -1,87 +1,27 @@
-#accenture {
-	margin-top: 40px;
-	height: 75px;
+.company {
+	width: 90%;
+	padding: 10px;
 }
-#pwc {
-	margin-top: 25px;
+#employers {
+	width: 100%;
 }
-#jpmorgan {
-	height: 70px;
-	margin-top: 18px;
+table {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: gray;
 }
-#gs {
-	height: 150px;
-	margin-top: 20px;
+#employer_logos {
+  	position: relative;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border-spacing: 20px;
 }
-#a16z {
-	height: 130px;
-	margin-top: 45px;
-}
-#baml {
-	height: 120px;
-	margin-top: 50px;
-}
-#lazard {
-	margin-top: 20px;
-}
-#citi {
-	height: 75px;
-	margin-top: 25px;
-}
-#tcv {
-	margin-top: 50px;
-}
-#qatalyst {
-	margin-top: 40px;
-}
-#barclays {
-	margin-top: 20px;
-}
-#twitter {
-	margin-top: 40px;
-	height: 120px;
-}
-#snapchat {
-	margin-top: 40px;
-	height: 120px;
-}
-#linkedin {
-	margin-top: 40px;
-	height: 120px;
-}
-#apple {
-	margin-top: 20px;
-	padding-left: 10px;
-	height: 140px;
-}
-#google {
-	height: 80px;
-	margin-top: 40px;
-}
-#genentech {
-	margin-top: -10px;
-}
-#cisco {
-	margin-top: 30px;
-	height: 140px;
-}
-#dropbox {
-	margin-top: 20px;
-}
-#microsoft {
-	margin-top: 30px;
-}
-#facebook {
-	height: 120px;
-	margin-top: 60px;
-}
-#moodys {
-	height: 75px;
-	margin-top: 10px;
-}
-#bain {
-	margin-top: 30px;
-}
-#drk {
-	margin-top: 40px;
+#employer_logos td {
+	display: table-cell;
+  	border: 1px solid rgb(216,215,215);
+  	padding: 15px;
+  	text-align: center;
 }
