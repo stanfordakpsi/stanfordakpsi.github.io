@@ -1,9 +1,17 @@
 .company {
 	width: 90%;
 	padding: 10px;
+	cursor: pointer;
+	-webkit-transition: opacity 0.5s ease-in-out;
+		-moz-transition: opacity 0.5s ease-in-out;
+		-ms-transition: opacity 0.5s ease-in-out;
+		-o-transition: opacity 0.5s ease-in-out;
+		transition: opacity 0.5s ease-in-out;
 }
-#employers {
-	width: 100%;
+.company:hover {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
 }
 table {
 	display: table;
@@ -13,6 +21,9 @@ table {
 	border-spacing: 2px;
 	border-color: gray;
 }
+#employers {
+	width: 100%;
+}
 #employer_logos {
   	position: relative;
   	margin-left: auto;
@@ -21,7 +32,7 @@ table {
 }
 #employer_logos td {
 	display: table-cell;
-  	border: 1px solid rgb(216,215,215);
-  	padding: 15px;
-  	text-align: center;
+  border: 1px solid rgb(216,215,215);
+  padding: 15px;
+  text-align: center;
 }
