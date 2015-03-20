@@ -1,6 +1,6 @@
 .company {
 	width: 90%;
-	padding: 10px;
+	padding: 5px;
 	cursor: pointer;
 	-webkit-transition: opacity 0.5s ease-in-out;
 		-moz-transition: opacity 0.5s ease-in-out;
@@ -28,11 +28,21 @@ table {
   	position: relative;
   	margin-left: auto;
   	margin-right: auto;
-  	border-spacing: 20px;
+  	border-spacing: 5px;
 }
 #employer_logos td {
 	display: table-cell;
   border: 1px solid rgb(216,215,215);
-  padding: 15px;
+  padding: 1px;
   text-align: center;
+}
+
+/* Larger than mobile */
+@media (min-width: 420px) {
+	#employer_logos {
+		border-spacing: 20px;
+	}
+	.company {
+		padding: 10px;
+	}
 }
