@@ -47,7 +47,7 @@
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: grey;
+    color: rgb(176, 176, 176);
 }
 
 .navbar-default .navbar-nav>li>a:hover {
