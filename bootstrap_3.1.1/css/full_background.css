@@ -47,10 +47,9 @@
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #FFFFFF;
+    color: grey;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: #FFFFFF;
-    background-color: #333;
+    color: white;
 }
