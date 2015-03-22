@@ -6,6 +6,10 @@
 a,
 a:focus,
 a:hover {
+  color: #fff;
+}
+
+.homescreen-nav-bar:hover{
   color: white;
 }
 
