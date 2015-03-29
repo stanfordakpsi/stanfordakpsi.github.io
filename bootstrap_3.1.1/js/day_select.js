@@ -11,7 +11,7 @@ function Monday() {
   document.getElementById("event-title").innerHTML = "Introduction to AKPsi";
   document.getElementById("event-details").innerHTML = "5pm-7pm @ Black Community Services Center";
   document.getElementById("event-description").innerHTML = "Come out and see what Alpha Kappa Psi is all about!" + 
-  " We will beintroducing the organization <br> and hosting an open networking session right after.";
+  " We will be introducing the organization <br> and hosting an open networking session right after.";
   document.getElementById("event-div").style.opacity = 0;
   pic_obj.style.opacity = 0;
   pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2013/test.JPG')";
@@ -21,8 +21,8 @@ function Monday() {
 }
 function Tuesday() {
   document.getElementById("event-title").innerHTML = "Meet the Brothers";
-  document.getElementById("event-details").innerHTML = "8pm-10pm @ Hillel House";
-  document.getElementById("event-description").innerHTML = "Hosted right on the row, Tuesday is a chance to get" +
+  document.getElementById("event-details").innerHTML = "8pm-10pm @ Toyon Main Lounge";
+  document.getElementById("event-description").innerHTML = "Tuesday is a chance to get" +
   " to know the brothers on a <br> more informal level. Come for the food and stay for the company!";
   document.getElementById("event-div").style.opacity = 0;
   pic_obj.style.opacity = 0;
@@ -32,7 +32,7 @@ function Tuesday() {
 }
 function Wednesday() {
   document.getElementById("event-title").innerHTML = "Alumni Night";
-  document.getElementById("event-details").innerHTML = "6pm-7:30pm @ Black Community Services Center";
+  document.getElementById("event-details").innerHTML = "7pm-8:30pm @ 420-041 (Subject to Change)";
   document.getElementById("event-description").innerHTML = "Our Alumni are working all around the world; come" +
    " meet a few that are still in the area <br> and hear about how AKPsi shaped their college experiences!";
   document.getElementById("event-div").style.opacity = 0;
@@ -54,7 +54,7 @@ function Thursday() {
 }
 function Friday() {
   document.getElementById("event-title").innerHTML = "Sports Day";
-  document.getElementById("event-details").innerHTML = "5pm-7pm @ Wilbur Field";
+  document.getElementById("event-details").innerHTML = "5pm-7pm @ Manzanita Field";
   document.getElementById("event-description").innerHTML = "Like every Stanford student, we love being outside!" +
   " Come play ball with us or join us on the grass!";
   document.getElementById("event-div").style.opacity = 0;
