@@ -14,7 +14,7 @@ function Monday() {
   " We will be introducing the organization <br> and hosting an open networking session right after.";
   document.getElementById("event-div").style.opacity = 0;
   pic_obj.style.opacity = 0;
-  pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2013/test.JPG')";
+  pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2015/AKPsi_banner.JPG')";
   $(".day-picture-div").animate({opacity: '1'}, 350);
   window.setTimeout("$('#event-div').animate({opacity: '0.8'}, 1000)", 750);
 
@@ -26,7 +26,7 @@ function Tuesday() {
   " to know the brothers on a <br> more informal level. Come for the food and stay for the company!";
   document.getElementById("event-div").style.opacity = 0;
   pic_obj.style.opacity = 0;
-  pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2014/AKPsi_banner_fun.JPG')";
+  pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2015/AKPsi_fun.JPG')";
   $(".day-picture-div").animate({opacity: '1'}, 350);
   window.setTimeout("$('#event-div').animate({opacity: '0.8'}, 1000)", 750);
 }
@@ -48,7 +48,7 @@ function Thursday() {
   " our brothers.";
   document.getElementById("event-div").style.opacity = 0;
   pic_obj.style.opacity = 0;
-  pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2014/resume_workshop.JPG')";
+  pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2015/resume_workshop.jpg')";
   $(".day-picture-div").animate({opacity: '1'}, 350);
   window.setTimeout("$('#event-div').animate({opacity: '0.8'}, 1000)", 750);
 }
@@ -59,7 +59,7 @@ function Friday() {
   " Come play ball with us or join us on the grass!";
   document.getElementById("event-div").style.opacity = 0;
   pic_obj.style.opacity = 0;
-  pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2014/sports_day.JPG')";
+  pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2015/sports_day.jpg')";
   $(".day-picture-div").animate({opacity: '1'}, 350);
   window.setTimeout("$('#event-div').animate({opacity: '0.8'}, 1000)", 750);
 }
@@ -70,7 +70,7 @@ function Saturday() {
   " brothers and learn what it's like <br> to be a consultant.";
   document.getElementById("event-div").style.opacity = 0;
   pic_obj.style.opacity = 0;
-  pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2014/case_interview.JPG')";
+  pic_obj.style.backgroundImage = "url('bootstrap_3.1.1/img/spring_2015/case_workshop.JPG')";
   $(".day-picture-div").animate({opacity: '1'}, 350);
   window.setTimeout("$('#event-div').animate({opacity: '0.8'}, 1000)", 750);
 }
