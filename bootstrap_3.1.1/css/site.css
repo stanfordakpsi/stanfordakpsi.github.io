@@ -139,6 +139,10 @@ body {
 	float: none;
 }
 
+.not-pictured-wrapper{
+	text-align: center;
+}
+
 .portrait {
 	width: 125px;
 	height: 187px;
