@@ -139,8 +139,16 @@ body {
 	float: none;
 }
 
+.not-pictured-list-items{
+	list-style-type: none;
+}
+
 .not-pictured-wrapper{
 	text-align: center;
+}
+
+#not-pictured-section{
+	margin: 20px;
 }
 
 .portrait {
