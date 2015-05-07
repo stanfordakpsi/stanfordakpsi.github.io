@@ -145,11 +145,12 @@ body {
 
 .not-pictured-wrapper{
 	text-align: center;
+	margin-top: 20px;
 }
 
-#not-pictured-section{
+/*#not-pictured-section{
 	margin-top: 200px;
-}
+}*/
 
 .portrait {
 	width: 125px;
