@@ -21,6 +21,18 @@ body {
 	background-color: #FFF;
 }
 
+#left-social-media{
+	float: left;
+}
+
+#right-social-media{
+	float: right;
+}
+
+#center-social-media{
+	float: center;
+}
+
 /* For responsive design on the index.html page */
 
 @media screen and (max-device-width: 770px) {
