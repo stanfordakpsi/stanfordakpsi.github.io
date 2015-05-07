@@ -135,7 +135,7 @@ body {
 }
 
 .not-pictured-list{
-	/* display: inline; */
+	display: inline-block;
 	float: none;
 }
 
