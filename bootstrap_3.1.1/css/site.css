@@ -18,7 +18,7 @@ body {
 }
 
 .unlisted:hover{
-	color: blue;
+	font-color: blue;
 }
 
 #fraternity_logo {
