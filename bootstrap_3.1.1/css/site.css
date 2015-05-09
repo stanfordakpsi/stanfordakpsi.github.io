@@ -12,6 +12,15 @@ body {
 	/*font-family: 'Oswald';*/
 }
 
+.unlisted{
+	cursor: pointer;
+	cursor: hand;
+}
+
+.unlisted:hover{
+	color: grey;
+}
+
 #fraternity_logo {
   height: 40vh;
   width: 20vw;
