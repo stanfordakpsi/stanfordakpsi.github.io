@@ -21,16 +21,16 @@ table {
 	border-spacing: 2px;
 	border-color: gray;
 }
-#employers {
+.employers {
 	width: 100%;
 }
-#employer_logos {
+.employer_logos {
   	position: relative;
   	margin-left: auto;
   	margin-right: auto;
   	border-spacing: 5px;
 }
-#employer_logos td {
+.employer_logos td {
 	display: table-cell;
   border: 1px solid rgb(216,215,215);
   padding: 1px;
@@ -39,7 +39,7 @@ table {
 
 /* Larger than mobile */
 @media (min-width: 420px) {
-	#employer_logos {
+	.employer_logos {
 		border-spacing: 20px;
 	}
 	.company {
