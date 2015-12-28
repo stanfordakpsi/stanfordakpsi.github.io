@@ -1,4 +1,3 @@
-/*
   Theme Name: Triangle
   Theme Uri: http://www.themeum.com
   Author: Themeum
@@ -167,11 +166,11 @@
 
 
 #header{
-  margin-bottom: 0;
-  padding: 30px 0 60px 0;
+  width: 100%;
+  padding: 10px 0;
 }
 
-#header .navbar-inverse .container{
+#header .container{
   position: relative;
 }
 
@@ -233,7 +232,7 @@
 }
 
 #header .navbar {
-  background: #fff;
+  background: transparent;
   border: 0;
   margin-bottom: 0;
 }
@@ -252,28 +251,24 @@
   margin: 0;
 }
 
-#header .navbar-nav.navbar-right >li:last-child{
-  margin-right: 20px;
-}
-
 #header .navbar-nav.navbar-right >li a {
   color: #000;
   font-size: 12px;
-  padding: 20px;
+  padding: 27.5px 20px;
   text-transform: uppercase;
   font-weight: 300;
 }
 
-#header .navbar-inverse .navbar-nav  li.active > a,
-#header .navbar-inverse .navbar-nav  li.active > a:focus,
+#header .navbar-nav  li.active > a,
+#header .navbar-nav  li.active > a:focus,
 #header .navbar-nav.navbar-right li > a:hover,
-.navbar-inverse .navbar-nav > .open > a {
+.navbar-nav > .open > a {
   background-color: inherit;
   border: 0;
   color: #d29948;
 }
 
-#header .navbar-inverse .navbar-nav  li a:hover{
+#header .navbar-nav  li a:hover{
   color: #d29948;
 }
 
@@ -368,11 +363,7 @@ ul.sub-menu {
 **************************/
 
 #footer {
-  padding-bottom: 75px;
-  background-image: url(../images/home/footer.png);
-  background-repeat: repeat-x;
-  background-position: bottom;
-  background-size: contain;
+  padding: 10px 0;
 }
 
 #footer h1{
@@ -493,7 +484,7 @@ ul.sub-menu {
 }
 
 .copyright-text{
-  margin-top: 70px;
+
 }
 
 /*************************
@@ -501,8 +492,8 @@ ul.sub-menu {
 **************************/
 
 #home-slider {
-  background: url(../images/home/slider-bg.png) 0 100% repeat-x;
   position: relative;
+  z-index: -100;
 }
 
 #home-slider .main-slider {
@@ -2605,7 +2596,6 @@ span.stButton_gradient,
 
 video#bgvid {
     width: 100%;
-    height: auto;
     z-index: -100;
     background: url(polina.jpg) no-repeat;
     background-size: cover;

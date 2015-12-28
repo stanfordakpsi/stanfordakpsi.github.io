@@ -78,11 +78,11 @@
   }
 
   #header .navbar-nav.navbar-right >li a {
-    padding: 20px 10px;
+    padding: 27.5px 10px;
   }
 
   #home-slider {
-    margin-top: 30px;
+
   }
 
   #home-slider .main-slider {
@@ -223,8 +223,7 @@
   }
 
   #header {
-    padding-bottom: 40px;
-    padding-top: 10px;
+    padding: 10px 0;
   }
 
   .social-icons.pull-right{
@@ -250,7 +249,7 @@
   #header .navbar-inverse .navbar-toggle:hover .icon-bar {
     background: #fff;
   }
- 
+
   .navbar-inverse .navbar-collapse,
   .navbar-inverse .navbar-form {
     border-top: 0;
@@ -284,14 +283,14 @@
     padding: 5px 10px;
   }
 
-  #header .navbar-inverse .navbar-nav li.active > a, 
-  #header .navbar-inverse .navbar-nav li.active > a:focus, 
+  #header .navbar-inverse .navbar-nav li.active > a,
+  #header .navbar-inverse .navbar-nav li.active > a:focus,
   #header .navbar-nav.navbar-right li > a:hover {
     border: none;
   }
 
   #home-slider {
-    margin: 50px 20px;
+
   }
 
   #home-slider .main-slider {
@@ -406,7 +405,7 @@
     padding-right: 15px;
   }
 
-  .nav.nav-justified.post-nav li, 
+  .nav.nav-justified.post-nav li,
   .nav.navbar-nav.post-nav li{
     display: inline-block;
     margin-right: 15px;
@@ -461,9 +460,9 @@
     font-size: 27px;
   }
 
-  #countdown li.angle-one:before, 
-  #countdown li.angle-one:after, 
-  #countdown li.angle-two:before, 
+  #countdown li.angle-one:before,
+  #countdown li.angle-one:after,
+  #countdown li.angle-two:before,
   #countdown li.angle-two:after  {
     display: none;
   }
@@ -509,7 +508,7 @@
     font-size: 25px;
   }
 
-  #countdown li.angle-one span.minutes, 
+  #countdown li.angle-one span.minutes,
   #countdown li.angle-one .minute {
     margin-left: 0
   }
@@ -634,9 +633,9 @@
     font-size: 27px;
   }
 
-  #countdown li.angle-one:before, 
-  #countdown li.angle-one:after, 
-  #countdown li.angle-two:before, 
+  #countdown li.angle-one:before,
+  #countdown li.angle-one:after,
+  #countdown li.angle-two:before,
   #countdown li.angle-two:after  {
     display: none;
   }
@@ -682,7 +681,7 @@
     font-size: 25px;
   }
 
-  #countdown li.angle-one span.minutes, 
+  #countdown li.angle-one span.minutes,
   #countdown li.angle-one .minute {
     margin-left: 0
   }
