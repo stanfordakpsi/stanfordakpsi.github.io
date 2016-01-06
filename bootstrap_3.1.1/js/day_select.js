@@ -21,7 +21,7 @@ function Monday() {
 }
 function Tuesday() {
   document.getElementById("event-title").innerHTML = "Hangout with AKPsi";
-  document.getElementById("event-details").innerHTML = "6:30pm-9:00pm @ TBD";
+  document.getElementById("event-details").innerHTML = "6:30pm-9:00pm @ Hillel, Kellilah Hall";
   document.getElementById("event-description").innerHTML = "Tuesday is a chance to get" +
   " to know the brothers on a <br> more informal level. Come for the food and games and stay for the company!";
   document.getElementById("event-div").style.opacity = 0;
@@ -32,7 +32,7 @@ function Tuesday() {
 }
 function Wednesday() {
   document.getElementById("event-title").innerHTML = "Alumni Night";
-  document.getElementById("event-details").innerHTML = "5:30pm-7:30pm @ TBD";
+  document.getElementById("event-details").innerHTML = "5:30pm-7:30pm @ Hillel, Kellilah Hall";
   document.getElementById("event-description").innerHTML = "Our Alumni are working all around the world; come" +
    " meet a few that are still in the area <br> and hear about how AKPsi shaped their college experiences!";
   document.getElementById("event-div").style.opacity = 0;
@@ -43,7 +43,7 @@ function Wednesday() {
 }
 function Thursday() {
   document.getElementById("event-title").innerHTML = "Open House";
-  document.getElementById("event-details").innerHTML = "6:30pm-8:30pm @ TBD";
+  document.getElementById("event-details").innerHTML = "6:30pm-8:30pm @ Elliot Programming Center";
   document.getElementById("event-description").innerHTML = "From consulting to breakdancing, come check out everything that goes on inside the organization.";
   document.getElementById("event-div").style.opacity = 0;
   pic_obj.style.opacity = 0;
@@ -53,7 +53,7 @@ function Thursday() {
 }
 function Friday() {
   document.getElementById("event-title").innerHTML = "Field Day";
-  document.getElementById("event-details").innerHTML = "4:30pm-6:30pm @ TBD";
+  document.getElementById("event-details").innerHTML = "4:30pm-6:30pm @ Muwekma-Tah-Ruk";
   document.getElementById("event-description").innerHTML = "Like every Stanford student, we love being outside!" +
   " Come play ball with us or join us on the grass!";
   document.getElementById("event-div").style.opacity = 0;
