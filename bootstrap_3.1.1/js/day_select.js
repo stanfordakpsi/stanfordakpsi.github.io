@@ -9,7 +9,7 @@ document.getElementById("saturday").onmouseover = function() {Saturday() };
 
 function Monday() {
   document.getElementById("event-title").innerHTML = "Meet the Chapter";
-  document.getElementById("event-details").innerHTML = "5:30pm-7:30pm @ Black Community Services Center";
+  document.getElementById("event-details").innerHTML = "5:30pm-7:30pm @ Arrillaga Dining Study Room";
   document.getElementById("event-description").innerHTML = "Come out and see what Alpha Kappa Psi is all about!" + 
   " We will be introducing the organization <br> and hosting an open networking session right after.";
   document.getElementById("event-div").style.opacity = 0;
@@ -64,7 +64,7 @@ function Friday() {
 }
 function Saturday() {
   document.getElementById("event-title").innerHTML = "Product Pitch Workshop";
-  document.getElementById("event-details").innerHTML = "8:00am-2:00pm @ Huang Basement";
+  document.getElementById("event-details").innerHTML = "8:00am-2:00pm @ TBA";
   document.getElementById("event-description").innerHTML = "Work on product pitch with our" +
   " brothers.";
   document.getElementById("event-div").style.opacity = 0;
