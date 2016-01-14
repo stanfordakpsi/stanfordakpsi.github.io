@@ -43,7 +43,7 @@ function Wednesday() {
 }
 function Thursday() {
   document.getElementById("event-title").innerHTML = "Open House";
-  document.getElementById("event-details").innerHTML = "6:30pm-8:30pm @ Elliot Programming Center";
+  document.getElementById("event-details").innerHTML = "5:30pm-6:30pm @ Elliot Programming Center";
   document.getElementById("event-description").innerHTML = "From consulting to breakdancing, come check out everything that goes on inside the organization.";
   document.getElementById("event-div").style.opacity = 0;
   pic_obj.style.opacity = 0;
