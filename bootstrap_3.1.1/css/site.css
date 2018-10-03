@@ -182,8 +182,8 @@ body {
 	height: 14%;
 }
 .portrait-pres {
-	width: 30%;
-	height: 30%;
+	width: 15%;
+	height: 15%;
 	margin-top: 25px;
 	cursor: pointer;
 	-webkit-transition: opacity 0.5s ease-in-out;
